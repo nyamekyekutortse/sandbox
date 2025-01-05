@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="full_menu.css">
+    <link rel="stylesheet" href="contact.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="controls">
+        <button>
+            <img src="caret.svg" alt="">
+        </button>
+        <button>
+            <img src="caret.svg" alt="">
+        </button>
+    </div>
+    <main>
+        <section id="full_menu" style="display: none;">
+            <section id="search">
+                <input type="text" id = "search_term" placeholder="enter a search term">
+                <span class="icon">
+                    <img src="search.svg" alt="">
+                </span>
+             </section>
+             <hr>
+             <section id="main_view">
+                <section id="main_menu_items">
+                    <button class="menu_item">
+                        <span class="icon">
+                            <img src="home.svg" alt="">
+                        </span>
+                        <span class="header">
+                            home
+                        </span>
+                        <span class="sub">
+                            some description goes here
+                        </span>
+                    </button>
+                    <button class="menu_item">
+                        <span class="icon">
+                            <img src="contact.svg" alt="">
+                        </span>
+                        <span class="header">
+                            home
+                        </span>
+                        <span class="sub">
+                            some description goes here
+                        </span>
+                    </button>
+                    <button class="menu_item">
+                        <span class="icon">
+                            <img src="projects.svg" alt="">
+                        </span>
+                        <span class="header">
+                            home
+                        </span>
+                        <span class="sub">
+                            some description goes here
+                        </span>
+                    </button>
+                    <button class="menu_item">
+                        <span class="icon">
+                            <img src="resources.svg" alt="">
+                        </span>
+                        <span class="header">
+                            home
+                        </span>
+                        <span class="sub">
+                            some description goes here
+                        </span>
+                    </button>
+                    <button class="menu_item">
+                        <span class="icon">
+                            <img src="blog.svg" alt="">
+                        </span>
+                        <span class="header">
+                            home
+                        </span>
+                        <span class="sub">
+                            some description goes here
+                        </span>
+                    </button>
+                    <button class="menu_item">
+                        <span class="icon">
+                            <img src="resume.svg" alt="">
+                        </span>
+                        <span class="header">
+                            home
+                        </span>
+                        <span class="sub">
+                            some description goes here
+                        </span>
+                    </button>
+                    <button class="menu_item">
+                        <span class="icon">
+                            <img src="about.svg" alt="">
+                        </span>
+                        <span class="header">
+                            home
+                        </span>
+                        <span class="sub">
+                            some description goes here
+                        </span>
+                    </button>
+                    <button class="menu_item">
+                        <span class="icon">
+                            <img src="handshake.svg" alt="">
+                        </span>
+                        <span class="header">
+                            home
+                        </span>
+                        <span class="sub">
+                            some description goes here
+                        </span>
+                    </button>
+                </section>
+             </section>
+        </section>
+        <header> 
+            <span class="logo">nana</span>
+            <nav id = "short_nav">
+                <ul>
+                    <li><button class="active">Home</button></li>
+                    <li><button>Projects</button></li>
+                    <li><button>More</button></li>
+                </ul>
+            </nav>
+            <span class = "icon"><button><img src="menu.svg" alt=""></button></span>
+        </header>
+        <section id="contact_content">
+            <section id="main_content">
+        
+                <span id="phone_content">
+                    <span id="content_container">
+                        <span class="content" style="z-index: 1;">
+                            <span class="subheader">subheading</span>
+                            <span class="header">header</span>
+                            <hr>
+                            <span class="paragraph">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Incidunt debitis illum perferendis obcaecati necessitatibus reprehenderit provident nesciunt 
+                                voluptate minus dignissimos accusamus voluptas doloribus exercitationem 
+                                fugit, atque quo vitae sit nemo.
+                            </span>
+                            <span class="actions">
+                                <button>button 1</button>
+                                <button>button 2</button>
+                            </span>
+                        </span>
+                    </span>
+        
+                    <span class="form_container">
+                        <span class="stats">
+                            <span class="stat">
+                                <span class="value">01</span>
+                                <span class="label">clients served</span>
+                            </span>
+
+                            <span class="stat">
+                                <span class="value">48h</span>
+                                <span class="label">response time</span>
+                            </span>
+                        </span>
+
+                        <hr> 
+                        
+                        <form id = "email_form">
+                            <fieldset id = "email_basics">
+                                <span class="input_group">
+                                    <input type="text" name = "name" id = "email_sender_name" placeholder="Franklina Johnson" required>
+                                    <label for="sender_email">full name or company name</label>
+                                </span>
+                                <span class="input_group">
+                                    <input type="text" placeholder="username@mail.com" id = "email_input" required>
+                                    <label for="email_input">enter your email</label>
+                                </span>
+                            </fieldset>
+
+                            <hr>
+
+                            <fieldset>
+                                <span class="input_group">
+                                    <input type="text" name = "email_subject" list = "suggested_subjects" id = email_subject>
+                                    <label for="email_subject">subject</label>
+                                </span>
+
+                                <span class="input_group">
+                                    <input type="range" name="message priority" id="email_priority" min="1" max="5">
+                                    <label for="email_priority">
+                                        <span>1</span>
+                                        <span>2</span>
+                                        <span>3</span>
+                                        <span>4</span>
+                                        <span>5</span>
+                                    </label>
+                                </span>
+                            </fieldset>
+
+                            <hr>
+
+                            <fieldset>
+                                <span class="input_group">
+                                    <textarea name="message" id="email_message">message goes here</textarea>
+                                    <label for="email_message">message</label>
+                                </span>
+                            </fieldset>
+                        </form>
+                    </span>
+                </span>
+
+
+            <footer id="content_switch">
+                <button>talk over email</button>
+                <button>get a call</button>
+            </footer>
+        </section>
+        </section>
+        <!-- <hr>
+        <footer>
+            <button>terms and conditions</button>
+            <button>attributions</button>
+        </footer> -->
+    </main>
+</body>
+</html>

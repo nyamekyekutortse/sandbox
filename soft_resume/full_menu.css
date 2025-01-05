@@ -1,0 +1,177 @@
+section[id  = "full_menu"]
+{
+    z-index: 7;
+    display: flex;
+    position: absolute;
+    background-color: rgb(140, 220, 251);
+    padding: 0;
+    margin: 0;
+    width: 80vw;
+    aspect-ratio: 7/4;
+    border-radius: 50px;
+    flex-direction: column;
+}
+
+section[id = "search"]
+{
+    width: 100%;
+    height: 7%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 0!important;
+    padding-right: 0!important;
+    margin-top: clamp(10px, 5%, 50px);
+}
+
+section[id = "search"] .icon
+{
+    display: flex;
+    width: 5%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    padding-top: 3px;
+    margin-left: 4%;
+}
+
+section[id = "search"] .icon img
+{
+    display: flex;
+    width: 80%;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+    filter: invert(100%);
+}
+
+section[id = "search"] input{
+    width: 92%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background: none;
+    font-size: clamp(20px, 2.95rem, 40px);
+    color: #fff;
+    outline: none;
+    height: 60%;
+    caret-color: #fff;
+}
+
+section[id = "search"] input::placeholder
+{
+    color: rgba(255, 255, 255, 0.6);
+    text-transform: capitalize;
+}
+
+section[id  = "full_menu"] hr{
+    display: flex;
+    width: 90%;
+    border: none;
+    background: rgba(255, 255, 255, 0.638);
+    height: 1px;
+    margin-top: 1.5%;
+}
+
+section[id = "main_view"]
+{
+    display: flex;
+}
+
+/* Grid Menu */
+section[id = "main_menu_items"]
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 2px;
+    column-gap: 2px;
+    place-items: center;
+    margin-left: 5%;
+    width: 90%;
+    margin-top: 1%;
+}
+
+section[id = "main_menu_items"] button
+{
+    display: flex;
+    flex-direction: column;
+    background: none;
+    background-color: rgba(255, 255, 255, 0.237);
+    overflow: hidden;
+    min-width: 200px;
+    min-height: 200px;
+    aspect-ratio: 1/1;
+    justify-content: space-around;
+    align-items: center;
+    border: none;
+    transition: all var(--short-duration) linear;
+}
+
+section[id = "main_menu_items"] button:hover
+{
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;        
+    background-color: rgba(255, 255, 255, 0.411);
+}
+
+section[id = "main_menu_items"] button:first-child
+{
+    border-top-left-radius: 20px;
+}
+
+section[id = "main_menu_items"] button:nth-child(4)
+{
+    border-top-right-radius: 20px;
+}
+
+section[id = "main_menu_items"] button:last-child
+{
+    border-bottom-right-radius: 20px;
+}
+
+section[id = "main_menu_items"] button:nth-child(5)
+{
+    border-bottom-left-radius: 20px;
+}
+
+section[id = "main_menu_items"] button .icon{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+section[id = "main_menu_items"] button .icon img{
+    display: flex;
+    width: 40%;
+    object-fit: contain;
+    filter: invert(100%) drop-shadow(3px 2px rgba(0, 0, 0, 0.135));
+}
+
+section[id = "main_menu_items"] button .header
+{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    text-transform: capitalize;
+    justify-content: center;
+    font-size: clamp(10px, 2.05rem, 50px);
+    margin-top: -35px;
+}
+
+section[id = "main_menu_items"] button .sub
+{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    text-transform: capitalize;
+    justify-content: center;
+    font-size: clamp(10px, 1.03rem, 50px);
+    font-weight: 100;
+    font-family: var(--button-header-font);
+    margin-top: -35px;
+    height: 20%;
+}

@@ -1,0 +1,316 @@
+@import url(../../styles.css);
+
+@media screen and (min-width: 1000px)
+{
+    section[id = "contact_content"]
+    {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 90%;
+        /* background-color: yellow; */
+    }
+
+    section[id = "main_content"]
+    {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        height: 90%;
+        /* background-color: yellow; */
+        justify-content: center;
+        align-items: center;
+        margin-left: 5%;
+    }
+
+
+    span[id = "phone_content" ]
+    {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        /* background-color: blue; */
+    }
+
+    span[id = "content_container"]
+    {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        /* background-color: red; */
+    }
+
+    span[id = "content_container"] .content
+    {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        /* align-items: center; */
+        /* background-color: green; */
+    }
+
+    span[id = "content_container"] .content .header
+    {
+        display: flex;
+        width: 90%;
+        height: 10%;
+        margin-left: 2%;
+        font-size: clamp(10px, 2.75vw, 35px);
+    }
+
+    span[id = "content_container"] .content .subheader
+    {
+        display: flex;
+        width: 90%;;
+        margin-left: 2%;
+        font-size: clamp(10px, 1.05vw, 25px);
+        color: gray;
+    }
+
+    span[id = "content_container"] .content hr
+    {
+        display: flex;
+        width: 10%;
+        margin: 0;
+        height: 1.5px;
+        margin-left: 2%;
+        border: none;
+        background: rgba(201, 198, 198, 0.522);
+        filter: drop-shadow(1px 1px 1px #00000042);
+    }
+
+    span[id = "content_container"] .content .paragraph
+    {
+        display: flex;
+        width: 70%;
+        margin-left: 2%;
+        font-size: clamp(10px, 1.05vw, 20px);
+        color: gray;
+        margin-top: 3%;
+        line-height: 25px;
+    }
+
+    span[id = "content_container"] .content .actions
+    {
+        display: flex;
+        width: 70%;
+        margin-left: 1%;
+        font-size: clamp(10px, 1.05vw, 20px);
+        color: gray;
+        margin-top: 3%;
+    }
+
+    span[id = "content_container"] .content .actions button
+    {
+        display: flex;
+        width: 20%;
+        margin-left: 2%;
+        font-size: clamp(10px, 1.05vw, 20px);
+        color: gray;
+        margin-top: 3%;
+        line-height: 25px;
+        cursor: pointer;
+        border: none;
+        border-radius: 30px;
+        /* todo: get styles from home css */
+    }
+
+    span[id = "career_content"] .extra_info
+    {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        /* background-color: green; */
+    }
+
+    span[id = "career_content"] .extra_info hr
+    {
+        display: flex;
+        width: 50%;
+        height: 1.05px;
+        /* todo: set proper background color */
+        background-color: rgb(255, 0, 0);
+        height: 1.75px;
+        left: 0;
+        align-self: unset;
+        border: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    span.form_container
+    {
+        width: 80%;
+        height: 100%;
+        /* background-color: red; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: 10%;
+
+    }
+
+    span.form_container .stats
+    {
+        display: flex;
+        width: 100%;
+        height: 10%;
+        justify-content: center;
+        align-items: center;
+        gap: 5%;
+        /* background-color: green; */
+    }
+
+    span.form_container .stats .stat
+    {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        /* background-color: blue; */
+    }
+
+    span.form_container .stats .stat .label
+    {
+        display: flex;
+        width: 100%;
+        height: 30%;
+        justify-content: center;
+        align-items: center;
+        /* background-color: red; */
+        /* todo: select proper font */
+        font-size: clamp(10px, 1.05vw, 20px);
+    }
+
+    span.form_container .stats .stat .value
+    {
+        display: flex;
+        width: 100%;
+        height: 70%;
+        justify-content: center;
+        align-items: center;
+        /* background-color: green; */
+        /* todo: select proper font */
+        /* todo: copy over styles from resume */
+        font-size: clamp(10px, 1.35vw, 30px);
+    }
+
+    span.form_container hr
+    {
+        /* todo: copy over styles from resume */
+    }
+
+
+    form {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
+        background: rgba(19, 18, 18, 0.817);
+        backdrop-filter: blur(10px);
+        padding: 2rem;
+        border-radius: 20px;
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    }
+    
+    form fieldset {
+        border: none;
+        margin-bottom: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    
+    form fieldset hr {
+        border: none;
+        height: 1px;
+        background: rgba(255, 255, 255, 0.2);
+        margin: 1.5rem 0;
+    }
+    
+    .input_group {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 0.5rem;
+
+    }
+    
+    .input_group input,
+    .input_group textarea {
+        background: rgba(255, 255, 255, 0.05);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 8px;
+        padding: 0.8rem;
+        font-size: 1rem;
+        color: white;
+        outline: none;
+        transition: border-color 0.3s;
+    }
+    
+    .input_group input:focus,
+    .input_group textarea:focus {
+        border-color: #6c63ff;
+        box-shadow: 0 0 8px rgba(108, 99, 255, 0.5);
+    }
+    
+    .input_group label {
+        font-size: 0.9rem;
+        color: rgba(255, 255, 255, 0.7);
+    }
+    
+    .input_group input::placeholder,
+    .input_group textarea::placeholder {
+        color: rgba(255, 255, 255, 0.5);
+    }
+    
+    .input_group input[type="range"] {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 95%;
+        height: 5px;
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 5px;
+        outline: none;
+        transition: background 0.3s;
+    }
+    
+    .input_group input[type="range"]::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 15px;
+        height: 15px;
+        background: #6c63ff;
+        border-radius: 50%;
+        cursor: pointer;
+        box-shadow: 0 0 5px rgba(108, 99, 255, 0.5);
+    }
+    
+    .input_group input[type="range"]:hover {
+        background: rgba(255, 255, 255, 0.4);
+    }
+    
+    footer[id = "content_switch"]
+    {
+        /* todo: consider restyling */
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        height: 10%;
+        bottom: 0;
+        justify-content: flex-end;
+        margin-top: 5%;
+        /* background-color: blue; */
+    }
+}

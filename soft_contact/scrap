@@ -1,0 +1,91 @@
+ form
+    {
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        justify-content: center;
+        height: 80%;
+    }
+
+    form fieldset
+    {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        /* background-color: red; */
+        border: none;
+        /* gap: 2vh; */
+    }
+
+    form fieldset .input_group
+    {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        /* background-color: green; */
+        gap: 0;
+    }
+
+    form fieldset .input_group input[type = "text"]
+    {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        /* background-color: blue; */
+        border: none;
+        border-bottom: 1px solid gray;
+        /* todo: select proper font */
+        font-size: clamp(10px, 1.05vw, 20px);
+        color: gray;
+        padding-left: 15px;
+        /* gap: 5vh; */
+        caret-color: white;
+    }
+
+    /* todo: add state styles */
+
+    form fieldset .input_group label
+    {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: flex-start;
+        /* background-color: blue; */
+        /* todo: select proper font */
+        font-size: clamp(10px, 1.05vw, 20px);
+        color: gray;
+        /* padding-left: 15px; */
+        /* gap: 5vh; */
+        caret-color: white;
+        text-align: left;
+    }
+
+    form fieldset .input_group textarea
+    {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 10vh;
+        justify-content: center;
+        align-items: center;
+        /* background-color: blue; */
+        border: none;
+        border-bottom: 1px solid gray;
+        /* todo: select proper font */
+        font-size: clamp(10px, 1.05vw, 20px);
+        color: gray;
+        padding-left: 15px;
+        /* gap: 5vh; */
+        caret-color: white;
+    }

@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="full_menu.css">
+    <link rel="stylesheet" href="resume.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="controls">
+        <button>
+            <img src="caret.svg" alt="">
+        </button>
+        <button>
+            <img src="caret.svg" alt="">
+        </button>
+    </div>
+    <main>
+        <section id="full_menu" style="display: none;">
+            <section id="search">
+                <input type="text" id = "search_term" placeholder="enter a search term">
+                <span class="icon">
+                    <img src="search.svg" alt="">
+                </span>
+             </section>
+             <hr>
+             <section id="main_view">
+                <section id="main_menu_items">
+                    <button class="menu_item">
+                        <span class="icon">
+                            <img src="home.svg" alt="">
+                        </span>
+                        <span class="header">
+                            home
+                        </span>
+                        <span class="sub">
+                            some description goes here
+                        </span>
+                    </button>
+                    <button class="menu_item">
+                        <span class="icon">
+                            <img src="contact.svg" alt="">
+                        </span>
+                        <span class="header">
+                            home
+                        </span>
+                        <span class="sub">
+                            some description goes here
+                        </span>
+                    </button>
+                    <button class="menu_item">
+                        <span class="icon">
+                            <img src="projects.svg" alt="">
+                        </span>
+                        <span class="header">
+                            home
+                        </span>
+                        <span class="sub">
+                            some description goes here
+                        </span>
+                    </button>
+                    <button class="menu_item">
+                        <span class="icon">
+                            <img src="resources.svg" alt="">
+                        </span>
+                        <span class="header">
+                            home
+                        </span>
+                        <span class="sub">
+                            some description goes here
+                        </span>
+                    </button>
+                    <button class="menu_item">
+                        <span class="icon">
+                            <img src="blog.svg" alt="">
+                        </span>
+                        <span class="header">
+                            home
+                        </span>
+                        <span class="sub">
+                            some description goes here
+                        </span>
+                    </button>
+                    <button class="menu_item">
+                        <span class="icon">
+                            <img src="resume.svg" alt="">
+                        </span>
+                        <span class="header">
+                            home
+                        </span>
+                        <span class="sub">
+                            some description goes here
+                        </span>
+                    </button>
+                    <button class="menu_item">
+                        <span class="icon">
+                            <img src="about.svg" alt="">
+                        </span>
+                        <span class="header">
+                            home
+                        </span>
+                        <span class="sub">
+                            some description goes here
+                        </span>
+                    </button>
+                    <button class="menu_item">
+                        <span class="icon">
+                            <img src="handshake.svg" alt="">
+                        </span>
+                        <span class="header">
+                            home
+                        </span>
+                        <span class="sub">
+                            some description goes here
+                        </span>
+                    </button>
+                </section>
+             </section>
+        </section>
+        <header> 
+            <span class="logo">nana</span>
+            <nav id = "short_nav">
+                <ul>
+                    <li><button class="active">Home</button></li>
+                    <li><button>Projects</button></li>
+                    <li><button>More</button></li>
+                </ul>
+            </nav>
+            <span class = "icon"><button><img src="menu.svg" alt=""></button></span>
+        </header>
+        <section id="resume_content">
+            <span class = "head">
+                <span class="icon" id = "career_icon">
+                    <img src="resume.svg" alt="">
+                </span>
+                <span class="text">Nyamekye Kutortse</span>
+            </span>
+            <section id="main_content">
+                <span id="career_content">
+                    <span id="content_container">
+                        <span class="content" style="z-index: 1;">
+                            <span class="subheader">subheading</span>
+                            <span class="header">header</span>
+                            <hr>
+                            <span class="paragraph">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Incidunt debitis illum perferendis obcaecati necessitatibus reprehenderit provident nesciunt 
+                                voluptate minus dignissimos accusamus voluptas doloribus exercitationem 
+                                fugit, atque quo vitae sit nemo.
+                            </span>
+                            <span class="actions">
+                                <button>button 1</button>
+                                <button>button 2</button>
+                            </span>
+                        </span>
+
+                        <!-- <span class="content" style="z-index: 2;">
+                            <span class="subheader">subheading</span>
+                            <span class="header">header</span>
+                            <hr>
+                            <span class="paragraph">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Incidunt debitis illum perferendis obcaecati necessitatibus reprehenderit provident nesciunt 
+                                voluptate minus dignissimos accusamus voluptas doloribus exercitationem 
+                                fugit, atque quo vitae sit nemo.
+                            </span>
+                            <span class="actions">
+                                <button>button 1</button>
+                                <button>button 2</button>
+                            </span>
+                        </span> -->
+                    </span>
+        
+                    <span class="extra_info">
+                        <span id = "career_experience">
+                            <span class = "stat_container">
+                                <span class="stat">01</span>
+                                <span class="caption">projects completed</span>
+                            </span>
+                            <span class="stat_container"> 
+                                <span class="stat">01</span>
+                                <span class="caption">clients served</span>
+                            </span>
+                            <span class="stat_container">
+                                <span class="stat">01</span>
+                                <span class="caption">ongoing projects</span>
+                            </span>
+                        </span>
+                        <hr>
+                        <span id = "career_data">
+                            <span class="tabs">
+                                <span class="tab tab_1">
+                                    <button class = "active">
+                                        <span class="icon">x</span>
+                                        <span class="text">skills</span>
+                                    </button>
+                                </span>
+                                <span class="tab tab_2">
+                                    <button>
+                                        <span class="icon">x</span>
+                                        <span class="text">tools</span>
+                                    </button>
+                                </span>
+                                <span class="tab tab_3">
+                                    <button>
+                                        <span class="icon">x</span>
+                                        <span class="text">other</span>
+                                    </button>
+                                </span>
+                            </span>
+        
+                            <span class="data">
+                                <span class="data_group data_1">
+                                    <span class="data_content">
+                                        <span class="icon">x</span>
+                                        <span class="label">web development</span>
+                                    </span>
+
+                                    <span class="data_content">
+                                        <span class="icon">x</span>
+                                        <span class="label">web development</span>
+                                    </span>
+
+                                    <span class="data_content">
+                                        <span class="icon">x</span>
+                                        <span class="label">web development</span>
+                                    </span>
+                                </span>
+                                <span class="data_group data_2"></span>
+                                <span class="data_group data_3"></span>
+                            </span>
+                        </span>
+                        
+                        <hr>
+
+                        <span id = "career_misc">
+                            github and stuff?
+                            clients worked with?
+                        </span>
+                    </span>
+                </span>
+        
+                <span id="education_content">
+        
+                </span>
+            </section>
+        
+            <footer id="content_switch">
+                <button>career</button>
+                <button>education</button>
+            </footer>
+        </section>
+        <!-- <hr>
+        <footer>
+            <button>terms and conditions</button>
+            <button>attributions</button>
+        </footer> -->
+    </main>
+</body>
+</html>
