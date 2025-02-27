@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="desktop/main_viewresults.css">
+
+</head>
+<body>
+    
+    <nav id = "mobile_nav">
+
+    </nav>
+
+    <nav id = "desktop_nav">
+        <button>
+
+        </button>
+        <button>
+
+        </button>
+        <button>
+
+        </button>
+        <button>
+
+        </button>
+        <button>
+
+        </button>
+    </nav>
+
+    <main>
+
+        <section id="week_selector">
+            <button onclick = "previousWeek(this)"> <i class="fi fi-br-caret-left"></i> </button>
+            <span class="weeks">
+                <span class="week">
+                    <span class="group solo">
+                        <span class="text">division name</span>
+                    </span>
+                    
+                    <hr>
+                    
+                    <span class="group">
+                        <span class="season">season 1</span>
+                        <span class="text">week number</span>
+                        <span class="text">01 January 2021</span>
+                    </span>
+                </span>
+
+                <span class="week">
+                    <span class="group solo">
+                        <span class="text">division name 222</span>
+                    </span>
+                    
+                    <hr>
+                    
+                    <span class="group">
+                        <span class="season">season 1</span>
+                        <span class="text">week number</span>
+                        <span class="text">01 January 2021</span>
+                    </span>
+                </span>
+            </span>
+            <button onclick = "nextWeek(this)"> <i class="fi fi-br-caret-right"></i> </button>
+        </section>
+
+        <section id="standings_container">
+            <!-- holds all tables for given week -->
+            <span class="week_results">
+                <!-- table for a week -->
+                <span class="results">
+
+                </span>
+            </span>
+        </section>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+</html>

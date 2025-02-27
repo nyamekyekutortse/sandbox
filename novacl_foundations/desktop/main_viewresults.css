@@ -1,0 +1,370 @@
+@import url(../global.css);
+
+@media screen and (min-width: 1000px) {
+
+    main
+    {
+        flex-direction: column!important;
+    }
+
+    section[id = "week_selector"]
+    {
+        display: flex;
+        flex-direction: row;
+        
+        width: clamp(50px, 80%, 900px); /* todo: set proper dimensions */ 
+        height: clamp(10px, 20%, 100px);
+        /* background-color: rgb(200, 255, 0); */
+        justify-content: center;
+        align-items: center;
+        gap: clamp(10px, 2.55vw, 70px);
+    }
+
+    section[id = "week_selector"] button
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-width: 50px;
+        min-height: 50px;
+        /* padding: 3px; */
+        overflow: hidden;
+        aspect-ratio: 1/1;
+        border-radius: 50%;
+        cursor: pointer;
+        box-shadow: var(--drop-one);
+        font-size: var(--footer-size);
+        background: none;
+        border: none;
+        /* outline: solid 1px black; todo: set proper colors and styles */
+    }
+
+    section[id = "week_selector"] button:hover
+    {
+        box-shadow: var(--drop-two);
+    }
+
+    section[id = "week_selector"] button:active
+    {
+        box-shadow: var(--drop-three);
+        background-color: var(--dark);
+        color: var(--primary);
+    }
+
+    section[id = "week_selector"] button:active i{
+        color: var(--primary);
+    }
+
+    section[id = "week_selector"] .weeks{
+        display: flex;
+        width: 70%;
+        align-items: center;
+        gap: clamp(10px, 2.55vw, 70px);
+        overflow-x: scroll;
+        scroll-snap-type: x;
+        /* todo: get scroll to snap */
+    }
+
+    section[id = "week_selector"] .weeks::-webkit-scrollbar{
+        display: none;
+    }
+
+    section[id = "week_selector"] .weeks hr{
+        display: flex;
+        width: 90%;
+        height: clamp(4px, 2%, 10px);
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    section[id = "week_selector"] .weeks .week{
+        display: flex;
+        flex-direction: column;
+        min-width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section[id = "week_selector"] .weeks .week .group{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 100%;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    section[id = "week_selector"] .weeks .week .group .text{
+        display: flex;
+        text-transform: capitalize;
+    }
+
+    section[id = "week_selector"] .weeks .week .group.solo .text{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        /* height: 100%; */
+        /* background-color: rgb(255, 0, 0); */
+        font-size: var(--sub-header-size);
+    }
+
+    /* results container */
+
+    section[id = "results_container"]
+    {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: clamp(10px, 70%, 1000px);
+        /* justify-content: center; */
+        align-items: center;
+        /* background-color: red; */
+        /* margin-top: clamp(10px, 5%, 50px); */
+    }
+
+    section[id = "results_container"] .week_results
+    {
+        display: flex;
+        width: 100%;
+        height: 90%;
+        align-items: center;
+        overflow-x: scroll;
+    }
+
+    section[id = "results_container"] .week_results::-webkit-scrollbar{
+        display: none;
+    }
+
+    section[id = "results_container"] .week_results .result
+    {
+
+        display: flex;
+        flex-direction: column;
+        width: calc(30vw); 
+        height: calc(90%);
+        padding: 5px;
+        border-radius: 30px;
+        overflow: hidden;
+        /* justify-content: center; */
+        align-items: center;
+        background-color: none;
+        box-shadow: var(--drop-three);
+        min-width: 600px;
+        min-height: 500px;
+        margin-left: clamp(10px, 1.55vw, 20px);
+        overflow-y: scroll; /* todo: temporary until you figure out how to keep list from getting too long */
+    }
+
+    section[id = "results_container"] .week_results .result::-webkit-scrollbar{
+        display: none;
+    }
+
+    section[id = "results_container"] .week_results .result .game_info{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        height: clamp(10px, 10%, 100px);
+        justify-content: center;
+        align-items: center;
+        /* background-color: red; */
+        gap: clamp(10px, 1.05vw, 15px);
+    }
+
+    section[id = "results_container"] .week_results .result .game_info .timing{
+        display: flex;
+        /* width: 100%; */
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: clamp(10px, 1.55vw, 20px);
+        height: clamp(10px, 10%, 100px);
+        /* justify-content: space-between; */
+    }
+
+    section[id = "results_container"] .week_results .result .game_info .timing hr{
+        height: 30px;
+        width: 2px;
+        background: var(--dark);
+        display: flex;
+    }
+
+    section[id = "results_container"] .week_results .result .game_info .location
+    {
+        display: flex;
+        text-transform: capitalize;
+    }
+
+    section[id = "results_container"] .week_results .result .scoring
+    {
+        display: flex;
+        width: 100%;
+        height: clamp(10px, 20%, 300px);
+        /* background-color: yellow; */
+        align-items: center;
+        justify-content: center;
+    }
+
+    section[id = "results_container"] .week_results .result .scoring .team{
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        height: 90%;
+        align-items: center;
+        /* background-color: rgb(255, 0, 0); */
+    }
+
+    section[id = "results_container"] .week_results .result .scoring .team .emblem{
+        display: flex;
+        height: 70%;
+        aspect-ratio: 1/1;
+        overflow: hidden;
+        border-radius: 15px;
+        box-shadow: var(--drop-one);
+    }
+
+    section[id = "results_container"] .week_results .result .scoring .team .emblem img{
+        width: 100%;
+        object-fit: cover;
+    }
+
+    section[id = "results_container"] .week_results .result .scoring .team .text{
+        text-transform: capitalize;
+    }
+
+    section[id = "results_container"] .week_results .result .scoring .scoreline{
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        height: 90%;
+        justify-content: center;
+        align-items: center;
+        /* background-color: rgb(0, 0, 255); */
+    }
+
+    section[id = "results_container"] .week_results .result .scoring .scoreline .scores{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 90%;
+        justify-content: center;
+        align-items: center;
+        /* background-color: rgb(0, 255, 0); */
+        gap: clamp(10px, 1.55vw, 20px);
+    }
+
+    section[id = "results_container"] .week_results .result .scoring .scoreline .scores .goal_count
+    {
+        display: flex;
+        font-size: var(--header-size);
+    }
+
+    section[id = "results_container"] .week_results .result .scoring .scoreline .scores hr
+    {
+        height: 2px;
+        width: 30px;
+        background: var(--dark);
+        display: flex;
+    }
+
+    section[id = "results_container"] .week_results .result .stat{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: clamp(10px, 1.55vw, 20px);
+    }
+
+    section[id = "results_container"] .week_results .result .stat .header{
+        display: flex;
+        width: 100%;
+        height: clamp(10px, 10%, 100px);
+        justify-content: center;
+        align-items: center;
+        /* background-color: red; */
+        gap: clamp(10px, 5.55vw, 40px);
+    }
+
+    section[id = "results_container"] .week_results .result .stat .header .label{
+        display: flex;
+        text-align: center;
+    }
+
+    section[id = "results_container"] .week_results .result .stat .header .count{
+        display: flex;
+        font-size: var(--body-size);
+    }
+
+    section[id = "results_container"] .week_results .result .stat .details{
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+        margin-left: 10%;
+        /* background-color: red; */
+        min-height: clamp(10px, 10vh, 400px);
+        align-items: space-between;
+        justify-content: space-between;
+        margin-top: clamp(10px, 1.55vw, 20px);
+    }
+
+    section[id = "results_container"] .week_results .result .stat .details ul
+    {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        /* background-color: rosybrown; */
+        list-style: none;
+        margin: 0;
+    }
+
+    section[id = "results_container"] .week_results .result .stat .details hr{
+        height: 100%;
+        width: 1px;
+        background: var(--dark);
+        display: flex;
+        margin: 0;
+        box-shadow: var(--drop-one);
+    }
+
+    section[id = "results_container"] .week_results .result .footer
+    {
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        height: clamp(10px, 10%, 100px);
+        justify-content: space-between;
+        align-items: center;
+        /* background-color: red; */
+    }
+
+    section[id = "results_container"] .week_results .result .footer .text{
+        display: flex;
+        text-align: left;
+        width: 50%;
+        height: 100%;
+        justify-content: flex-start;
+        align-items: center;
+        text-transform: capitalize;
+        /* background-color: red; */
+    }
+
+    section[id = "results_container"] .week_results .result .footer button{
+        display: flex;
+        width: 10%;
+        aspect-ratio: 1/1;
+        justify-content: center;
+        align-items: center;
+        background: none;
+        border: none;
+        /* background-color: red; */
+    }
+
+    section[id = "results_container"] .week_results .result .footer button i{
+        display: flex;
+        font-size: var(--header-size);
+    }
+}
+

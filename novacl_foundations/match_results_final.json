@@ -1,0 +1,2821 @@
+[
+    {
+        "gameweek": 1.0,
+        "date": "2024-07-26",
+        "time": "8:45 PM",
+        "location": "Braddock Park",
+        "status": "Scheduled",
+        "home_team": {
+            "name": "Royals FC",
+            "goals_scored": 0,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "GOATs",
+            "goals_scored": null,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "Match canceled."
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 1.0,
+        "date": "2024-07-26",
+        "time": "8:30 PM",
+        "location": "Poplar Tree",
+        "status": "Ended",
+        "home_team": {
+            "name": "Springfield Blues",
+            "goals_scored": 3,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "Cobras",
+            "goals_scored": 5,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "-"
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 1.0,
+        "date": "2024-07-26",
+        "time": "9:00 PM",
+        "location": "Pine Ridge Field",
+        "status": "Ended",
+        "home_team": {
+            "name": "LPFC",
+            "goals_scored": 2,
+            "yellow_cards": 2,
+            "yellow_cards_list": [
+                "Idwin Gomez (bad tackle)",
+                "Juan Sotelo (trying to start fight)"
+            ],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "Reston United",
+            "goals_scored": 6,
+            "yellow_cards": 2,
+            "yellow_cards_list": [
+                "Inriki Navish (trying to start fight)",
+                "Jose Barera (trying to start fight)"
+            ],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "Four yellow cards issued due to bad conduct on both teams."
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 1.0,
+        "date": "2024-07-26",
+        "time": "-",
+        "location": "-",
+        "status": "Ended",
+        "home_team": {
+            "name": "Fairfax Lions",
+            "goals_scored": 2,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "Estudiantes",
+            "goals_scored": 2,
+            "yellow_cards": 1,
+            "yellow_cards_list": [
+                "Curtis (U)"
+            ],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "-"
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 2.0,
+        "date": "2024-08-02",
+        "time": "8:30 PM",
+        "location": "Braddock Park",
+        "status": "Scheduled",
+        "home_team": {
+            "name": "Reston United",
+            "goals_scored": null,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "Royals FC",
+            "goals_scored": null,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "Match canceled."
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 2.0,
+        "date": "2024-08-02",
+        "time": "9:00 PM",
+        "location": "West Potomac HS",
+        "status": "Scheduled",
+        "home_team": {
+            "name": "Warriors",
+            "goals_scored": null,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "Cobras",
+            "goals_scored": null,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "Match canceled."
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 2.0,
+        "date": "2024-08-02",
+        "time": "9:00 PM",
+        "location": "Pine Ridge",
+        "status": "Ended",
+        "home_team": {
+            "name": "MetroStars",
+            "goals_scored": 3,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "GOATs",
+            "goals_scored": 11,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "No cards issued."
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 2.0,
+        "date": "2024-08-02",
+        "time": "8:30 PM",
+        "location": "South Run Field",
+        "status": "Ended",
+        "home_team": {
+            "name": "Estudiantes",
+            "goals_scored": 6,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "Springfield Blues",
+            "goals_scored": 7,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "No cards issued."
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 2.0,
+        "date": "2024-08-02",
+        "time": "-",
+        "location": "-",
+        "status": "Ended",
+        "home_team": {
+            "name": "Fairfax Lions",
+            "goals_scored": 5,
+            "yellow_cards": 1,
+            "yellow_cards_list": [
+                "Mohamed (UB)"
+            ],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "LPFC",
+            "goals_scored": 4,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "-"
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 3.0,
+        "date": "2024-08-09",
+        "time": "9:00 PM",
+        "location": "Jackson Field",
+        "status": "Ended",
+        "home_team": {
+            "name": "Estudiantes",
+            "goals_scored": 6,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "Warriors",
+            "goals_scored": 4,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "No cards issued."
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 3.0,
+        "date": "2024-08-09",
+        "time": "9:00 PM",
+        "location": "Pine Ridge #6",
+        "status": "Ended",
+        "home_team": {
+            "name": "LPFC",
+            "goals_scored": 4,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "Springfield Blues",
+            "goals_scored": 6,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "No cards issued."
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 3.0,
+        "date": "2024-08-09",
+        "time": "8:30 PM",
+        "location": "Poplar Tree",
+        "status": "Scheduled",
+        "home_team": {
+            "name": "Goats",
+            "goals_scored": null,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "Cobras",
+            "goals_scored": null,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "I was at the field at 8:20, only Cobras showed up, waited till 9:05 and Goats never showed up."
+        },
+        "editor_notes": "The new managers of the GOATs apologized for the lapse in communication and for missing the match. GOATs are responsible for the referee fee."
+    },
+    {
+        "gameweek": 3.0,
+        "date": "2024-08-09",
+        "time": "8:45 PM",
+        "location": "Braddock",
+        "status": "Ended",
+        "home_team": {
+            "name": "Royals",
+            "goals_scored": 6,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "Fairfax Lions",
+            "goals_scored": 4,
+            "yellow_cards": 2,
+            "yellow_cards_list": [
+                "Ali Muallah (UB)",
+                "Sami Ali (FRDQ)"
+            ],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "-"
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 3.0,
+        "date": "2024-08-09",
+        "time": "8:30 PM",
+        "location": "South Run",
+        "status": "Ended",
+        "home_team": {
+            "name": "Reston United",
+            "goals_scored": 5,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "MetroStars",
+            "goals_scored": 2,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "No cards issued."
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 4.0,
+        "date": "2024-08-16",
+        "time": "9:00 PM",
+        "location": "Jackson Field",
+        "status": "Ended",
+        "home_team": {
+            "name": "Fairfax Lions",
+            "goals_scored": 5,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "Goats",
+            "goals_scored": 7,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "I got to the field and found that the game started (one of the players was refereeing). The game was 20 minutes in when I got there. I took over and finished the first half; on the second half, they played 45 minutes + (till they told me to finish the game)."
+        },
+        "editor_notes": "Referee Assignor was working off an old schedule and did not initially assign referee. League will ask for confirmation of all future referee assignments to ensure this doesn't happen again. League paid for referee in full."
+    },
+    {
+        "gameweek": 4.0,
+        "date": "2024-08-16",
+        "time": "8:30 PM",
+        "location": "South Run #5",
+        "status": "Scheduled",
+        "home_team": {
+            "name": "Springfield Blues",
+            "goals_scored": null,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "Royals FC",
+            "goals_scored": null,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "Match canceled."
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 4.0,
+        "date": "2024-08-16",
+        "time": "8:30 PM",
+        "location": "Poplar Tree",
+        "status": "Ended",
+        "home_team": {
+            "name": "LPFC",
+            "goals_scored": 4,
+            "yellow_cards": 1,
+            "yellow_cards_list": [
+                "Pepe Castro (PI)"
+            ],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "Estudiantes",
+            "goals_scored": 3,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "-"
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 4.0,
+        "date": "2024-08-16",
+        "time": "8:30 PM",
+        "location": "Braddock Park",
+        "status": "Ended",
+        "home_team": {
+            "name": "Reston United",
+            "goals_scored": 3,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "Cobras",
+            "goals_scored": 0,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "Only the first half was played, due to the Cobras forfeiting the second half because of injuries and not enough people."
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 4.0,
+        "date": "2024-08-16",
+        "time": "-",
+        "location": "-",
+        "status": "Ended",
+        "home_team": {
+            "name": "MetroStars",
+            "goals_scored": 3,
+            "yellow_cards": 2,
+            "yellow_cards_list": [
+                "Alex (UB)",
+                "Diego (UB)"
+            ],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "Warriors",
+            "goals_scored": 3,
+            "yellow_cards": 1,
+            "yellow_cards_list": [
+                "Joseph (UB)"
+            ],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "-"
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 5.0,
+        "date": "2024-08-23",
+        "time": "-",
+        "location": "-",
+        "status": "Ended",
+        "home_team": {
+            "name": "Fairfax Lions",
+            "goals_scored": 1,
+            "yellow_cards": 1,
+            "yellow_cards_list": [
+                "Abd Elrahman (UB)"
+            ],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "Springfield Blues",
+            "goals_scored": 4,
+            "yellow_cards": 1,
+            "yellow_cards_list": [
+                "Ramon (UB)"
+            ],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "-"
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 5.0,
+        "date": "2024-08-23",
+        "time": "8:30 PM",
+        "location": "Poplar Tree",
+        "status": "Ended",
+        "home_team": {
+            "name": "Cobras",
+            "goals_scored": 3,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "GOATs",
+            "goals_scored": 5,
+            "yellow_cards": 1,
+            "yellow_cards_list": [
+                "Tamim Habib (UB)"
+            ],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "-"
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 5.0,
+        "date": "2024-08-23",
+        "time": "8:30 PM",
+        "location": "Braddock",
+        "status": "Ended",
+        "home_team": {
+            "name": "Warriors",
+            "goals_scored": 1,
+            "yellow_cards": 1,
+            "yellow_cards_list": [
+                "Herman Ruiz (UB)"
+            ],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "Reston United",
+            "goals_scored": 2,
+            "yellow_cards": 2,
+            "yellow_cards_list": [
+                "Josue Mejia (UB)",
+                "Alejandro Noboa (UB)"
+            ],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "Game ended prematurely (3 minutes into extra time) due to a player altercation following a foul by Noboa. Match ended without taking the free kick."
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 5.0,
+        "date": "2024-08-23",
+        "time": "9:00 PM",
+        "location": "Pine Ridge #6",
+        "status": "Ended",
+        "home_team": {
+            "name": "LPFC",
+            "goals_scored": 8,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "MetroStars",
+            "goals_scored": 1,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "No cards issued."
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 6.0,
+        "date": "2024-08-30",
+        "time": "8:30 PM",
+        "location": "Poplar Tree",
+        "status": "Ended",
+        "home_team": {
+            "name": "Estudiantes",
+            "goals_scored": 1,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "Cobras",
+            "goals_scored": 3,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "No cards issued."
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 6.0,
+        "date": "2024-08-30",
+        "time": "9:00 PM",
+        "location": "Pine Ridge #6",
+        "status": "Ended",
+        "home_team": {
+            "name": "GOATs",
+            "goals_scored": 6,
+            "yellow_cards": 2,
+            "yellow_cards_list": [
+                "Selah N. (UB)",
+                "Onar T. (D)"
+            ],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "Springfield Blues",
+            "goals_scored": 5,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "-"
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 6.0,
+        "date": "2024-08-30",
+        "time": "-",
+        "location": "-",
+        "status": "Ended",
+        "home_team": {
+            "name": "Warriors",
+            "goals_scored": 1,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "LPFC",
+            "goals_scored": 6,
+            "yellow_cards": 1,
+            "yellow_cards_list": [
+                "Jose (UB)"
+            ],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "-"
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 6.0,
+        "date": "2024-08-30",
+        "time": "8:30 PM",
+        "location": "Braddock Park",
+        "status": "Ended",
+        "home_team": {
+            "name": "Fairfax Lions",
+            "goals_scored": 1,
+            "yellow_cards": 2,
+            "yellow_cards_list": [
+                "Nasr Raman (unsafe tackle)",
+                "Khalid Raman (repetitive fouls)"
+            ],
+            "red_cards": 1,
+            "red_cards_list": [
+                "Zaid Khalfan (stopping goal by hand)"
+            ]
+        },
+        "away_team": {
+            "name": "Reston United",
+            "goals_scored": 5,
+            "yellow_cards": 2,
+            "yellow_cards_list": [
+                "Enriki Neviz (repetitive fouls)",
+                "Brian Garcia (abusive to referee)"
+            ],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "-"
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 7.0,
+        "date": "2024-09-06",
+        "time": "8:00 PM",
+        "location": "South Run Field",
+        "status": "Ended",
+        "home_team": {
+            "name": "LPFC",
+            "goals_scored": 1,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "Springfield Blues",
+            "goals_scored": 6,
+            "yellow_cards": 2,
+            "yellow_cards_list": [
+                "Diego H (UB",
+                "foul inside goalkeeper box)"
+            ],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "One yellow card issued to Springfield Blues for foul inside goalkeeper box."
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 7.0,
+        "date": "2024-09-06",
+        "time": "8:30 PM",
+        "location": "Braddock Park",
+        "status": "Scheduled",
+        "home_team": {
+            "name": "Royals FC",
+            "goals_scored": null,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "Warriors",
+            "goals_scored": null,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "Match canceled."
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 7.0,
+        "date": "2024-09-06",
+        "time": "9:00 PM",
+        "location": "Jackson MS #1",
+        "status": "Ended",
+        "home_team": {
+            "name": "Fairfax Lions",
+            "goals_scored": 5,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "MetroStars",
+            "goals_scored": 1,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "No cards given."
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 7.0,
+        "date": "2024-09-06",
+        "time": "-",
+        "location": "-",
+        "status": "Ended",
+        "home_team": {
+            "name": "Cobras",
+            "goals_scored": 1,
+            "yellow_cards": 1,
+            "yellow_cards_list": [
+                "Andria (UB)"
+            ],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "Estudiantes",
+            "goals_scored": 3,
+            "yellow_cards": 1,
+            "yellow_cards_list": [
+                "Wale (UB)"
+            ],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "-"
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 7.0,
+        "date": "2024-09-06",
+        "time": "9:00 PM",
+        "location": "Pine Ridge #6",
+        "status": "Ended",
+        "home_team": {
+            "name": "GOATs",
+            "goals_scored": 3,
+            "yellow_cards": 1,
+            "yellow_cards_list": [
+                "Zizo (attempt to fight the opponent)"
+            ],
+            "red_cards": 4,
+            "red_cards_list": [
+                "Tamim Habib (two yellows for dissent)",
+                "Ponit (Coach",
+                "dissent)",
+                "Omar Ismail (two yellows for dissent)"
+            ]
+        },
+        "away_team": {
+            "name": "Reston United",
+            "goals_scored": 2,
+            "yellow_cards": 2,
+            "yellow_cards_list": [
+                "Evan Georgelis (attempt to fight the opponent)",
+                "Carlos Martinez (dissent by word)"
+            ],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "Game ended at minute 79 due to player and fan misconduct. Captains requested the referee to finish the game early after incidents."
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 8.0,
+        "date": "2024-09-13",
+        "time": "8:30 PM",
+        "location": "Braddock Park",
+        "status": "Ended",
+        "home_team": {
+            "name": "Reston United (F)",
+            "goals_scored": 1,
+            "yellow_cards": 4,
+            "yellow_cards_list": [
+                "William Martinez (UB)",
+                "Miguel Martinez (Dissent)",
+                "Andres Melara (UB)",
+                "Carlos (UB)"
+            ],
+            "red_cards": 1,
+            "red_cards_list": [
+                "Roberto Delzi (Dissent)"
+            ]
+        },
+        "away_team": {
+            "name": "Springfield Blues",
+            "goals_scored": 4,
+            "yellow_cards": 2,
+            "yellow_cards_list": [
+                "Jack Diego (UB)",
+                "Kevin Alvarado (Dissent)"
+            ],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "Match became aggressive with multiple bookings for Reston United. Player conduct was challenging and included offensive language. Captains were uncooperative in providing accurate player details."
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 8.0,
+        "date": "2024-09-13",
+        "time": "9:00 PM",
+        "location": "Pine Ridge Field",
+        "status": "Ended",
+        "home_team": {
+            "name": "Royals FC",
+            "goals_scored": 1,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "LPFC",
+            "goals_scored": 5,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "No cards issued."
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 8.0,
+        "date": "2024-09-13",
+        "time": "9:00 PM",
+        "location": "Jackson MS",
+        "status": "Scheduled",
+        "home_team": {
+            "name": "Warriors",
+            "goals_scored": null,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "Cobras",
+            "goals_scored": null,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "Match canceled."
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 8.0,
+        "date": "2024-09-13",
+        "time": "8:30 PM",
+        "location": "Ken Lawrence #1",
+        "status": "Ended",
+        "home_team": {
+            "name": "MetroStars",
+            "goals_scored": 1,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "GOATs",
+            "goals_scored": 6,
+            "yellow_cards": 1,
+            "yellow_cards_list": [
+                "Onar T. (UB)"
+            ],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "Kick-off delayed until 9:05 PM due to field double booking."
+        },
+        "editor_notes": "Fairfax County double-booked the field; adjustments are being made to future schedules."
+    },
+    {
+        "gameweek": 8.0,
+        "date": "2024-09-13",
+        "time": "-",
+        "location": "-",
+        "status": "Ended",
+        "home_team": {
+            "name": "Estudiantes",
+            "goals_scored": 3,
+            "yellow_cards": 1,
+            "yellow_cards_list": [
+                "Andrew (UB)"
+            ],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "Fairfax Lions",
+            "goals_scored": 3,
+            "yellow_cards": 2,
+            "yellow_cards_list": [
+                "Saeed (UB)",
+                "Mohamoud Ahmed (UB)"
+            ],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "-"
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 9.0,
+        "date": "2024-09-20",
+        "time": "8:30 PM",
+        "location": "Poplar Tree #3",
+        "status": "Ended",
+        "home_team": {
+            "name": "Estudiantes",
+            "goals_scored": 1,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "Reston United (F)",
+            "goals_scored": 4,
+            "yellow_cards": 2,
+            "yellow_cards_list": [
+                "Michael Martinez (UB)",
+                "Angel Ochoa (UB)"
+            ],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "Reston UTD player Angel Ochoa used discriminatory language, resulting in a suspension."
+        },
+        "editor_notes": "Discriminatory language is not allowed; automatic three-game suspension applied to Angel Ochoa."
+    },
+    {
+        "gameweek": 9.0,
+        "date": "2024-09-20",
+        "time": "8:45 PM",
+        "location": "Braddock",
+        "status": "Ended",
+        "home_team": {
+            "name": "Royals",
+            "goals_scored": 1,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "Cobras",
+            "goals_scored": 9,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "No cards issued."
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 9.0,
+        "date": "2024-09-20",
+        "time": "9:00 PM",
+        "location": "Pine Ridge",
+        "status": "Ended",
+        "home_team": {
+            "name": "LPFC",
+            "goals_scored": 4,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 5,
+            "red_cards_list": [
+                "Carlos Nunez",
+                "Edwin Ravis",
+                "Freddie Velasquez",
+                "Alex Ordonez",
+                "Jos\u00e9 Perez (involved in fight)"
+            ]
+        },
+        "away_team": {
+            "name": "Fairfax Lions",
+            "goals_scored": 2,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 3,
+            "red_cards_list": [
+                "Abdelmajid Alali",
+                "Hammoud Almoussa",
+                "Marouan Zuss (involved in fight)"
+            ]
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "Major altercation involving multiple players from both teams. Additional referee report requested."
+        },
+        "editor_notes": "League awaiting additional referee report; further penalties possible."
+    },
+    {
+        "gameweek": 9.0,
+        "date": "2024-09-20",
+        "time": "8:30 PM",
+        "location": "South Run Field",
+        "status": "Ended",
+        "home_team": {
+            "name": "Springfield Blues",
+            "goals_scored": 9,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "MetroStars",
+            "goals_scored": 4,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "No cards issued."
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 9.0,
+        "date": "2024-09-20",
+        "time": "-",
+        "location": "-",
+        "status": "Ended",
+        "home_team": {
+            "name": "Warriors",
+            "goals_scored": 3,
+            "yellow_cards": 1,
+            "yellow_cards_list": [
+                "Carlos (UB)"
+            ],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "GOATs",
+            "goals_scored": 3,
+            "yellow_cards": 1,
+            "yellow_cards_list": [
+                "AJ (UB)"
+            ],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "-"
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 10.0,
+        "date": "2024-09-27",
+        "time": "8:30 PM",
+        "location": "Braddock",
+        "status": "Ended",
+        "home_team": {
+            "name": "Reston United",
+            "goals_scored": 3,
+            "yellow_cards": 1,
+            "yellow_cards_list": [
+                "Vladi Argueta (UB)"
+            ],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "MetroStars",
+            "goals_scored": 1,
+            "yellow_cards": 2,
+            "yellow_cards_list": [
+                "Michael Kaleem (UB)",
+                "Rafa Paz (FRD)"
+            ],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "Competitive match with bookings for both teams."
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 10.0,
+        "date": "2024-09-27",
+        "time": "9:00 PM",
+        "location": "Jackson MS",
+        "status": "Scheduled",
+        "home_team": {
+            "name": "Fairfax Lions",
+            "goals_scored": null,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "Warriors",
+            "goals_scored": null,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "Match canceled."
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 10.0,
+        "date": "2024-09-27",
+        "time": "8:30 PM",
+        "location": "South Run #5",
+        "status": "Scheduled",
+        "home_team": {
+            "name": "Springfield Blues",
+            "goals_scored": null,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "Royals FC",
+            "goals_scored": null,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "Match canceled."
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 10.0,
+        "date": "2024-09-27",
+        "time": "9:00 PM",
+        "location": "Pine Ridge #6",
+        "status": "Scheduled",
+        "home_team": {
+            "name": "GOATs",
+            "goals_scored": null,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "Estudiantes",
+            "goals_scored": null,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "Match canceled."
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 10.0,
+        "date": "2024-09-27",
+        "time": "8:30 PM",
+        "location": "Poplar Tree #3",
+        "status": "Scheduled",
+        "home_team": {
+            "name": "Cobras",
+            "goals_scored": null,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "LPFC",
+            "goals_scored": null,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "Match canceled."
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 11.0,
+        "date": "2024-10-04",
+        "time": "9:00 PM",
+        "location": "Jackson MS",
+        "status": "Scheduled",
+        "home_team": {
+            "name": "Warriors",
+            "goals_scored": null,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "Estudiantes",
+            "goals_scored": null,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "Match canceled."
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 11.0,
+        "date": "2024-10-04",
+        "time": "8:30 PM",
+        "location": "South Run #5",
+        "status": "Ended",
+        "home_team": {
+            "name": "Springfield Blues",
+            "goals_scored": 4,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "Fairfax Lions",
+            "goals_scored": 2,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "No cards issued."
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 11.0,
+        "date": "2024-10-04",
+        "time": "8:30 PM",
+        "location": "Poplar Tree",
+        "status": "Ended",
+        "home_team": {
+            "name": "Cobras",
+            "goals_scored": 9,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "GOATs",
+            "goals_scored": 6,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "No cards issued."
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 11.0,
+        "date": "2024-10-04",
+        "time": "9:00 PM",
+        "location": "Pine Ridge",
+        "status": "Ended",
+        "home_team": {
+            "name": "LPFC",
+            "goals_scored": 1,
+            "yellow_cards": 1,
+            "yellow_cards_list": [
+                "Juan Ramos (UB)"
+            ],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "MetroStars",
+            "goals_scored": 3,
+            "yellow_cards": 1,
+            "yellow_cards_list": [
+                "Abdul Razzaq (UB)"
+            ],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "Two yellow cards issued for unsporting behavior."
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 11.0,
+        "date": "2024-10-04",
+        "time": "8:30 PM",
+        "location": "Braddock Park",
+        "status": "Ended",
+        "home_team": {
+            "name": "Royals FC",
+            "goals_scored": 2,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "Reston United (F)",
+            "goals_scored": 4,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "Match started late due to traffic delaying the referee's arrival. Game commenced at 8:50 PM after explanation to coaches."
+        },
+        "editor_notes": "Referee should arrive at least 10 minutes before scheduled kick-off to ensure readiness."
+    },
+    {
+        "gameweek": 12.0,
+        "date": "2024-10-11",
+        "time": "8:30 PM",
+        "location": "Poplar Tree",
+        "status": "Ended",
+        "home_team": {
+            "name": "LPFC",
+            "goals_scored": 0,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "Estudiantes",
+            "goals_scored": 8,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "No cards issued."
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 12.0,
+        "date": "2024-10-11",
+        "time": "9:00 PM",
+        "location": "Pine Ridge #6",
+        "status": "Scheduled",
+        "home_team": {
+            "name": "GOATs",
+            "goals_scored": null,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "Fairfax Lions",
+            "goals_scored": null,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "Match canceled."
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 12.0,
+        "date": "2024-10-11",
+        "time": "8:30 PM",
+        "location": "Braddock Park",
+        "status": "Ended",
+        "home_team": {
+            "name": "Reston United (F)",
+            "goals_scored": 4,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "Cobras",
+            "goals_scored": 2,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "No cards issued."
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 12.0,
+        "date": "2024-10-11",
+        "time": "8:45 PM",
+        "location": "Ken Lawrence",
+        "status": "Ended",
+        "home_team": {
+            "name": "Royals",
+            "goals_scored": 5,
+            "yellow_cards": 1,
+            "yellow_cards_list": [
+                "Angel Rodriguez (UB)"
+            ],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "MetroStars",
+            "goals_scored": 2,
+            "yellow_cards": 2,
+            "yellow_cards_list": [
+                "Aimal Khan (UB)",
+                "Alex Mendoza (UB)"
+            ],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "Competitive match with bookings for unsporting behavior."
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 12.0,
+        "date": "2024-10-11",
+        "time": "-",
+        "location": "-",
+        "status": "Ended",
+        "home_team": {
+            "name": "Warriors",
+            "goals_scored": 0,
+            "yellow_cards": 1,
+            "yellow_cards_list": [
+                "Jose (UB)"
+            ],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "Springfield Blues",
+            "goals_scored": 5,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "-"
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 13.0,
+        "date": "2024-10-18",
+        "time": "8:30 PM",
+        "location": "Poplar Tree",
+        "status": "Ended",
+        "home_team": {
+            "name": "Cobras",
+            "goals_scored": 3,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "MetroStars",
+            "goals_scored": 7,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "No cards issued."
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 13.0,
+        "date": "2024-10-18",
+        "time": "8:30 PM",
+        "location": "South Run Field #5",
+        "status": "Ended",
+        "home_team": {
+            "name": "GOATs",
+            "goals_scored": 5,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "Springfield Blues",
+            "goals_scored": 3,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "No cards issued."
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 13.0,
+        "date": "2024-10-18",
+        "time": "-",
+        "location": "-",
+        "status": "Ended",
+        "home_team": {
+            "name": "Fairfax Lions",
+            "goals_scored": 2,
+            "yellow_cards": 1,
+            "yellow_cards_list": [
+                "4"
+            ],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "Reston United",
+            "goals_scored": 4,
+            "yellow_cards": 1,
+            "yellow_cards_list": [
+                "2"
+            ],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "-"
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 13.0,
+        "date": "2024-10-18",
+        "time": "8:30 PM",
+        "location": "Braddock Park",
+        "status": "Ended",
+        "home_team": {
+            "name": "Royals FC",
+            "goals_scored": 2,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "Estudiantes",
+            "goals_scored": 1,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "No cards issued."
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 14.0,
+        "date": "2024-10-25",
+        "time": "8:30 PM",
+        "location": "South Run #5",
+        "status": "Ended",
+        "home_team": {
+            "name": "Causa FC",
+            "goals_scored": 0,
+            "yellow_cards": 4,
+            "yellow_cards_list": [
+                "Ose Rodriguez (#10",
+                "UB)",
+                "Jean Pierre (#18",
+                "PI)"
+            ],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "Reston United",
+            "goals_scored": 6,
+            "yellow_cards": 2,
+            "yellow_cards_list": [
+                "Carlos Martinez (#4",
+                "UB)"
+            ],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "First half cut short by 15 minutes due to Reston United's delayed arrival."
+        },
+        "editor_notes": "First half started late due to Reston United's delay; match proceeded without further incidents."
+    },
+    {
+        "gameweek": 14.0,
+        "date": "2024-10-25",
+        "time": "8:45 PM",
+        "location": "Braddock Park",
+        "status": "Ended",
+        "home_team": {
+            "name": "Royals FC",
+            "goals_scored": 3,
+            "yellow_cards": 1,
+            "yellow_cards_list": [
+                "Guillermo Rodriguez (#18)"
+            ],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "LPFC",
+            "goals_scored": 2,
+            "yellow_cards": 3,
+            "yellow_cards_list": [
+                "Cristian Velasco (#20)",
+                "Nicol\u00e1s Romero (#8)",
+                "Carlos Guevara (#18)"
+            ],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "Close match with multiple cautions issued for unsporting behavior."
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 14.0,
+        "date": "2024-10-25",
+        "time": "9:00 PM",
+        "location": "Pine Ridge #6",
+        "status": "Ended",
+        "home_team": {
+            "name": "GOATs",
+            "goals_scored": 4,
+            "yellow_cards": 1,
+            "yellow_cards_list": [
+                "Tamim Habib (UB)"
+            ],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "MetroStars",
+            "goals_scored": 3,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "Competitive match with one caution issued to GOATs for unsporting behavior."
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 14.0,
+        "date": "2024-10-25",
+        "time": "8:30 PM",
+        "location": "Poplar Tree #3",
+        "status": "Scheduled",
+        "home_team": {
+            "name": "Cobras",
+            "goals_scored": null,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "Warriors",
+            "goals_scored": null,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "Match canceled."
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 14.0,
+        "date": "2024-10-25",
+        "time": "8:30 PM",
+        "location": "South Run #5",
+        "status": "Scheduled",
+        "home_team": {
+            "name": "Springfield Blues",
+            "goals_scored": null,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "Reston United",
+            "goals_scored": null,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "Match canceled."
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 14.0,
+        "date": "2024-10-25",
+        "time": "9:00 PM",
+        "location": "LJ",
+        "status": "Ended",
+        "home_team": {
+            "name": "Estudiantes",
+            "goals_scored": 8,
+            "yellow_cards": 2,
+            "yellow_cards_list": [
+                "Jamal Masuh (UB)",
+                "Nilser Siso (DISS)"
+            ],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "Fairfax Lions",
+            "goals_scored": 1,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "Estudiantes displayed strong performance; two cautions issued for unsporting behavior and dissent."
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 15.0,
+        "date": "2024-11-08",
+        "time": "8:30 PM",
+        "location": "Poplar Tree #3",
+        "status": "Ended",
+        "home_team": {
+            "name": "Estudiantes",
+            "goals_scored": 4,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "GOATs",
+            "goals_scored": 5,
+            "yellow_cards": 1,
+            "yellow_cards_list": [
+                "Tamim Habib (Second Yellow)"
+            ],
+            "red_cards": 1,
+            "red_cards_list": [
+                "Tamim Habib (Sent off at 60')"
+            ]
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "Update: Red card mistakenly reported as Estudiantes player in prior report. Corrected to GOATs FC."
+        },
+        "editor_notes": "Corrected referee report; individual identified and confirmed as GOATs FC player."
+    },
+    {
+        "gameweek": 15.0,
+        "date": "2024-11-08",
+        "time": "8:30 PM",
+        "location": "Ken Lawrence #1",
+        "status": "Scheduled",
+        "home_team": {
+            "name": "MetroStars",
+            "goals_scored": null,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "Reston United",
+            "goals_scored": null,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "No report submitted; awaiting details."
+        },
+        "editor_notes": "Editor's note only; no game data available yet."
+    },
+    {
+        "gameweek": 15.0,
+        "date": "2024-11-08",
+        "time": "8:30 PM",
+        "location": "Poplar Tree #3",
+        "status": "Ended",
+        "home_team": {
+            "name": "Estudiantes",
+            "goals_scored": 4,
+            "yellow_cards": 1,
+            "yellow_cards_list": [
+                "Tamin Habib (Second Yellow)"
+            ],
+            "red_cards": 1,
+            "red_cards_list": [
+                "Tamin Habib (Sent off at 60')"
+            ]
+        },
+        "away_team": {
+            "name": "GOATs",
+            "goals_scored": 5,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "League needs to address issues with team punctuality and conduct. Estudiantes players and supporters were aggressive; captains and managers need to manage behavior better."
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 15.0,
+        "date": "2024-11-08",
+        "time": "9:00 PM",
+        "location": "Pine Ridge #6",
+        "status": "Scheduled",
+        "home_team": {
+            "name": "LPFC",
+            "goals_scored": null,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "Cobras",
+            "goals_scored": null,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "Match canceled."
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 15.0,
+        "date": "2024-11-08",
+        "time": "9:00 PM",
+        "location": "Jackson MS",
+        "status": "Ended",
+        "home_team": {
+            "name": "Warriors",
+            "goals_scored": 2,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "Fairfax Lions",
+            "goals_scored": 4,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "No cards issued."
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 15.0,
+        "date": "2024-11-08",
+        "time": "9:00 PM",
+        "location": "Pine Ridge #6",
+        "status": "Ended",
+        "home_team": {
+            "name": "LPFC",
+            "goals_scored": 3,
+            "yellow_cards": 1,
+            "yellow_cards_list": [
+                "1 Yellow Card"
+            ],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "Causa FC",
+            "goals_scored": 4,
+            "yellow_cards": 1,
+            "yellow_cards_list": [
+                "1 Yellow Card"
+            ],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "One yellow card issued to each team."
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 15.0,
+        "date": "2024-11-08",
+        "time": "8:45 PM",
+        "location": "Braddock Park",
+        "status": "Ended",
+        "home_team": {
+            "name": "Royals FC",
+            "goals_scored": 2,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "Springfield Blues",
+            "goals_scored": 3,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "No cards issued."
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 16.0,
+        "date": "2024-11-15",
+        "time": "8:30 PM",
+        "location": "South Run #5",
+        "status": "Scheduled",
+        "home_team": {
+            "name": "Springfield Blues",
+            "goals_scored": null,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "Cobras",
+            "goals_scored": null,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "Match canceled."
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 16.0,
+        "date": "2024-11-15",
+        "time": "-",
+        "location": "-",
+        "status": "Ended",
+        "home_team": {
+            "name": "LPFC",
+            "goals_scored": 7,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "GOATs",
+            "goals_scored": 6,
+            "yellow_cards": 1,
+            "yellow_cards_list": [
+                "Tamim Habib (UB)"
+            ],
+            "red_cards": 1,
+            "red_cards_list": [
+                "Tamim Habib (obsessive language toward referee)"
+            ]
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "Tamim Habib suspended for rest of fall session for violating suspension by playing."
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 16.0,
+        "date": "2024-11-15",
+        "time": "9:00 PM",
+        "location": "Jackson MS",
+        "status": "Ended",
+        "home_team": {
+            "name": "Warriors",
+            "goals_scored": 3,
+            "yellow_cards": 2,
+            "yellow_cards_list": [
+                "Carlos (#17",
+                "UB)"
+            ],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "Reston United",
+            "goals_scored": 0,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "No further comments provided."
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 16.0,
+        "date": "2024-11-15",
+        "time": "8:30 PM",
+        "location": "South Run #5",
+        "status": "Ended",
+        "home_team": {
+            "name": "Springfield Blues",
+            "goals_scored": 7,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 1,
+            "red_cards_list": [
+                "1 (fighting)"
+            ]
+        },
+        "away_team": {
+            "name": "Causa FC",
+            "goals_scored": 3,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 1,
+            "red_cards_list": [
+                "1 (fighting)"
+            ]
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "Game continued without further incidents after fight between two players."
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 16.0,
+        "date": "2024-11-15",
+        "time": "8:45 PM",
+        "location": "Braddock Park",
+        "status": "Ended",
+        "home_team": {
+            "name": "Royals FC",
+            "goals_scored": 5,
+            "yellow_cards": 1,
+            "yellow_cards_list": [
+                "1"
+            ],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "Fairfax Lions",
+            "goals_scored": 4,
+            "yellow_cards": 1,
+            "yellow_cards_list": [
+                "1"
+            ],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "Close match with one yellow card for each team."
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 16.0,
+        "date": "2024-11-15",
+        "time": "8:30 PM",
+        "location": "Poplar Tree #3",
+        "status": "Ended",
+        "home_team": {
+            "name": "Estudiantes",
+            "goals_scored": 1,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "MetroStars",
+            "goals_scored": 3,
+            "yellow_cards": 1,
+            "yellow_cards_list": [
+                "2 (MetroStars)"
+            ],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "Two cautions issued to MetroStars for unsporting behavior."
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 17.0,
+        "date": "2024-11-22",
+        "time": "9:00 PM",
+        "location": "Jackson MS",
+        "status": "Scheduled",
+        "home_team": {
+            "name": "Fairfax Lions",
+            "goals_scored": null,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "Cobras",
+            "goals_scored": null,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "Match canceled due to weather."
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 17.0,
+        "date": "2024-11-22",
+        "time": "8:30 PM",
+        "location": "Braddock Park",
+        "status": "Scheduled",
+        "home_team": {
+            "name": "Reston United",
+            "goals_scored": null,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "LPFC",
+            "goals_scored": null,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "Match canceled due to weather."
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 17.0,
+        "date": "2024-11-22",
+        "time": "8:30 PM",
+        "location": "Ken Lawrence #1",
+        "status": "Scheduled",
+        "home_team": {
+            "name": "MetroStars",
+            "goals_scored": null,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "Warriors",
+            "goals_scored": null,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "Match canceled due to weather."
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 17.0,
+        "date": "2024-11-22",
+        "time": "9:00 PM",
+        "location": "Pine Ridge #6",
+        "status": "Scheduled",
+        "home_team": {
+            "name": "GOATs",
+            "goals_scored": null,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "Royals FC",
+            "goals_scored": null,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "Match canceled due to weather."
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 17.0,
+        "date": "2024-11-22",
+        "time": "8:30 PM",
+        "location": "South Run #5",
+        "status": "Ended",
+        "home_team": {
+            "name": "Estudiantes",
+            "goals_scored": 2,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "Springfield Blues",
+            "goals_scored": 5,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "Match completed without incidents."
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 18.0,
+        "date": "2024-11-29",
+        "time": "9:00 PM",
+        "location": "Jackson MS",
+        "status": "Scheduled",
+        "home_team": {
+            "name": "Warriors",
+            "goals_scored": null,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "LPFC",
+            "goals_scored": null,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "Match canceled."
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 18.0,
+        "date": "2024-11-29",
+        "time": "9:00 PM",
+        "location": "Pine Ridge #6",
+        "status": "Scheduled",
+        "home_team": {
+            "name": "GOATs",
+            "goals_scored": null,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "Springfield Blues",
+            "goals_scored": null,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "Match canceled."
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 18.0,
+        "date": "2024-11-29",
+        "time": "8:30 PM",
+        "location": "Ken Lawrence #1",
+        "status": "Ended",
+        "home_team": {
+            "name": "MetroStars",
+            "goals_scored": 4,
+            "yellow_cards": 2,
+            "yellow_cards_list": [
+                "Abdul (#83",
+                "UB)"
+            ],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "Estudiantes",
+            "goals_scored": 2,
+            "yellow_cards": 2,
+            "yellow_cards_list": [
+                "Alfred (#37",
+                "UB)"
+            ],
+            "red_cards": 2,
+            "red_cards_list": [
+                "Alfred (#76",
+                "Second Yellow)"
+            ]
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "Alfred received a second yellow card and was sent off at 76 minutes."
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 18.0,
+        "date": "2024-11-29",
+        "time": "8:30 PM",
+        "location": "Ken Lawrence #1",
+        "status": "Scheduled",
+        "home_team": {
+            "name": "MetroStars",
+            "goals_scored": null,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "Royals FC",
+            "goals_scored": null,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "Match canceled."
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 18.0,
+        "date": "2024-11-29",
+        "time": "8:30 PM",
+        "location": "Poplar Tree #3",
+        "status": "Scheduled",
+        "home_team": {
+            "name": "Estudiantes",
+            "goals_scored": null,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "away_team": {
+            "name": "Cobras",
+            "goals_scored": null,
+            "yellow_cards": 0,
+            "yellow_cards_list": [],
+            "red_cards": 0,
+            "red_cards_list": []
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "Match canceled."
+        },
+        "editor_notes": "-"
+    },
+    {
+        "gameweek": 18.0,
+        "date": "2024-11-29",
+        "time": "8:30 PM",
+        "location": "Braddock Park",
+        "status": "Ended",
+        "home_team": {
+            "name": "Reston United",
+            "goals_scored": 3,
+            "yellow_cards": 1,
+            "yellow_cards_list": [
+                "1"
+            ],
+            "red_cards": 1,
+            "red_cards_list": [
+                "Juan Chavez (fighting)"
+            ]
+        },
+        "away_team": {
+            "name": "Fairfax Lions",
+            "goals_scored": 3,
+            "yellow_cards": 1,
+            "yellow_cards_list": [
+                "1"
+            ],
+            "red_cards": 1,
+            "red_cards_list": [
+                "Amed Roma (fighting)"
+            ]
+        },
+        "referee": {
+            "id": null,
+            "name": null,
+            "notes": "Match ended in a draw with one red card for each team due to fighting."
+        },
+        "editor_notes": "-"
+    }
+]

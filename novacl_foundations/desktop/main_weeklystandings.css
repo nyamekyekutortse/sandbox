@@ -1,0 +1,115 @@
+@import url(../global.css);
+
+@media screen and (min-width: 1000px) {
+
+    main
+    {
+        flex-direction: column!important;
+    }
+
+    section[id = "week_selector"]
+    {
+        display: flex;
+        flex-direction: row;
+        
+        width: clamp(50px, 80%, 900px); /* todo: set proper dimensions */ 
+        height: clamp(10px, 20%, 100px);
+        /* background-color: rgb(200, 255, 0); */
+        justify-content: center;
+        align-items: center;
+        gap: clamp(10px, 2.55vw, 70px);
+    }
+
+    section[id = "week_selector"] button
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-width: 50px;
+        min-height: 50px;
+        /* padding: 3px; */
+        overflow: hidden;
+        aspect-ratio: 1/1;
+        border-radius: 50%;
+        cursor: pointer;
+        box-shadow: var(--drop-one);
+        font-size: var(--footer-size);
+        background: none;
+        border: none;
+        /* outline: solid 1px black; todo: set proper colors and styles */
+    }
+
+    section[id = "week_selector"] button:hover
+    {
+        box-shadow: var(--drop-two);
+    }
+
+    section[id = "week_selector"] button:active
+    {
+        box-shadow: var(--drop-three);
+        background-color: var(--dark);
+        color: var(--primary);
+    }
+
+    section[id = "week_selector"] button:active i{
+        color: var(--primary);
+    }
+
+    section[id = "week_selector"] .weeks{
+        display: flex;
+        width: 70%;
+        align-items: center;
+        gap: clamp(10px, 2.55vw, 70px);
+        overflow-x: scroll;
+        scroll-snap-type: x;
+        /* todo: get scroll to snap */
+    }
+
+    section[id = "week_selector"] .weeks::-webkit-scrollbar{
+        display: none;
+    }
+
+    section[id = "week_selector"] .weeks hr{
+        display: flex;
+        width: 90%;
+        height: clamp(4px, 2%, 10px);
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    section[id = "week_selector"] .weeks .week{
+        display: flex;
+        flex-direction: column;
+        min-width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section[id = "week_selector"] .weeks .week .group{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 100%;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    section[id = "week_selector"] .weeks .week .group .text{
+        display: flex;
+        text-transform: capitalize;
+    }
+
+    section[id = "week_selector"] .weeks .week .group.solo .text{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        /* height: 100%; */
+        /* background-color: rgb(255, 0, 0); */
+        font-size: var(--sub-header-size);
+    }
+
+
+}
+

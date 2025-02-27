@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="desktop/main_viewresults.css">
+
+</head>
+<body>
+    
+    <nav id = "mobile_nav">
+
+    </nav>
+
+    <nav id = "desktop_nav">
+        <button>
+
+        </button>
+        <button>
+
+        </button>
+        <button>
+
+        </button>
+        <button>
+
+        </button>
+        <button>
+
+        </button>
+    </nav>
+
+    <main>
+
+        <section id="week_selector">
+            <button onclick = "previousWeek(this)"> <i class="fi fi-br-caret-left"></i> </button>
+            <span class="weeks">
+                <span class="week">
+                    <span class="group solo">
+                        <span class="text">division name</span>
+                    </span>
+                    
+                    <hr>
+                    
+                    <span class="group">
+                        <span class="season">season 1</span>
+                        <span class="text">week number</span>
+                        <span class="text">01 January 2021</span>
+                    </span>
+                </span>
+
+                <span class="week">
+                    <span class="group solo">
+                        <span class="text">division name 222</span>
+                    </span>
+                    
+                    <hr>
+                    
+                    <span class="group">
+                        <span class="season">season 1</span>
+                        <span class="text">week number</span>
+                        <span class="text">01 January 2021</span>
+                    </span>
+                </span>
+            </span>
+            <button onclick = "nextWeek(this)"> <i class="fi fi-br-caret-right"></i> </button>
+        </section>
+
+        <section id="results_container">
+            <!-- contains the results for a given week -->
+            <span class="week_results"> 
+                <!-- a result for a game this is the actual card -->
+                <span class="result">
+                    <span class="game_info">
+                        <span class="timing">
+                            <span class="date">01 January 2021</span>
+                            <hr>
+                            <span class="time">12:00pm(EST)</span>
+                        </span>
+                        <span class="location">field name</span>
+                    </span>
+
+                    <span class="scoring">
+                        <span class="team">
+                            <span class="text">home</span>
+                            <span class="emblem"><img src="teamlogo.jpg" alt=""></span>
+                            <span class="text">team name</span>
+                        </span>
+
+                        <span class="scoreline">
+                            <span class="scores">
+                                <span class = "goal_count">0</span>
+                                <hr>
+                                <span class = "goal_count">0</span>
+                            </span>
+                            <span class="status">ended</span>
+                        </span>
+
+                        <span class="team">
+                            <span class="text">away</span>
+                            <span class="emblem"><img src="teamlogo.jpg" alt=""></span>
+                            <span class="text">team name</span>
+                        </span>
+                    </span>
+
+                    <span class="stat" >
+                        <span class="header">
+                            <span class = "count">0</span>
+                            <span class="label">yellow<br>cards</span>
+                            <span class = "count">0</span>
+                        </span>
+                        <span class="details">
+                            <ul>
+                                <li>player name</li>
+                                <li>player name</li>
+                                <li>player name</li>
+                            </ul>
+                            <hr>
+                            <ul>
+                                <li>player name</li>
+                                <li>player name</li>
+                                <li>player name</li>
+                            </ul>
+                        </span>
+                    </span>
+
+                    <span class="stat">
+                        <span class="header">
+                            <span class = "count">0</span>
+                            <span class="label">red<br>cards</span>
+                            <span class = "count">0</span>
+                        </span>
+                        <span class="details">
+                            <ul>
+                                <li>player name</li>
+                                <li>player name</li>
+                                <li>player name</li>
+                            </ul>
+                            <hr>
+                            <ul>
+                                <li>player name</li>
+                                <li>player name</li>
+                                <li>player name</li>
+                            </ul>
+                        </span>
+                    </span>
+
+                    <span class="footer">
+                        <span class="text">referee name</span>
+                        <button><i class="fi fi-sr-edit"></i></button>
+                    </span>
+
+                </span>
+
+                <span class="result">
+                    <span class="game_info">
+                        <span class="timing">
+                            <span class="date">01 January 2021</span>
+                            <hr>
+                            <span class="time">12:00pm(EST)</span>
+                        </span>
+                        <span class="location">field name</span>
+                    </span>
+
+                    <span class="scoring">
+                        <span class="team">
+                            <span class="text">home</span>
+                            <span class="emblem"><img src="teamlogo.jpg" alt=""></span>
+                            <span class="text">team name</span>
+                        </span>
+
+                        <span class="scoreline">
+                            <span class="scores">
+                                <span class = "goal_count">0</span>
+                                <hr>
+                                <span class = "goal_count">0</span>
+                            </span>
+                            <span class="status">ended</span>
+                        </span>
+
+                        <span class="team">
+                            <span class="text">away</span>
+                            <span class="emblem"><img src="teamlogo.jpg" alt=""></span>
+                            <span class="text">team name</span>
+                        </span>
+                    </span>
+
+                    <span class="stat" >
+                        <span class="header">
+                            <span class = "count">0</span>
+                            <span class="label">yellow<br>cards</span>
+                            <span class = "count">0</span>
+                        </span>
+                        <span class="details">
+                            <ul>
+                                <li>player name</li>
+                                <li>player name</li>
+                                <li>player name</li>
+                            </ul>
+                            <hr>
+                            <ul>
+                                <li>player name</li>
+                                <li>player name</li>
+                                <li>player name</li>
+                            </ul>
+                        </span>
+                    </span>
+
+                    <span class="stat">
+                        <span class="header">
+                            <span class = "count">0</span>
+                            <span class="label">red<br>cards</span>
+                            <span class = "count">0</span>
+                        </span>
+                        <span class="details">
+                            <ul>
+                                <li>player name</li>
+                                <li>player name</li>
+                                <li>player name</li>
+                            </ul>
+                            <hr>
+                            <ul>
+                                <li>player name</li>
+                                <li>player name</li>
+                                <li>player name</li>
+                            </ul>
+                        </span>
+                    </span>
+
+                    <span class="footer">
+                        <span class="text">referee name</span>
+                        <button><i class="fi fi-sr-journal-alt"></i></button>
+                    </span>
+
+                </span>
+
+                <span class="result">
+                    <span class="game_info">
+                        <span class="timing">
+                            <span class="date">01 January 2021</span>
+                            <hr>
+                            <span class="time">12:00pm(EST)</span>
+                        </span>
+                        <span class="location">field name</span>
+                    </span>
+
+                    <span class="scoring">
+                        <span class="team">
+                            <span class="text">home</span>
+                            <span class="emblem"><img src="teamlogo.jpg" alt=""></span>
+                            <span class="text">team name</span>
+                        </span>
+
+                        <span class="scoreline">
+                            <span class="scores">
+                                <span class = "goal_count">0</span>
+                                <hr>
+                                <span class = "goal_count">0</span>
+                            </span>
+                            <span class="status">ended</span>
+                        </span>
+
+                        <span class="team">
+                            <span class="text">away</span>
+                            <span class="emblem"><img src="teamlogo.jpg" alt=""></span>
+                            <span class="text">team name</span>
+                        </span>
+                    </span>
+
+                    <span class="stat" >
+                        <span class="header">
+                            <span class = "count">0</span>
+                            <span class="label">yellow<br>cards</span>
+                            <span class = "count">0</span>
+                        </span>
+                        <span class="details">
+                            <ul>
+                                <li>player name</li>
+                                <li>player name</li>
+                                <li>player name</li>
+                            </ul>
+                            <hr>
+                            <ul>
+                                <li>player name</li>
+                                <li>player name</li>
+                                <li>player name</li>
+                            </ul>
+                        </span>
+                    </span>
+
+                    <span class="stat">
+                        <span class="header">
+                            <span class = "count">0</span>
+                            <span class="label">red<br>cards</span>
+                            <span class = "count">0</span>
+                        </span>
+                        <span class="details">
+                            <ul>
+                                <li>player name</li>
+                                <li>player name</li>
+                                <li>player name</li>
+                            </ul>
+                            <hr>
+                            <ul>
+                                <li>player name</li>
+                                <li>player name</li>
+                                <li>player name</li>
+                            </ul>
+                        </span>
+                    </span>
+
+                    <span class="footer">
+                        <span class="text">referee name</span>
+                        <button><i class="fi fi-sr-journal-alt"></i></button>
+                    </span>
+
+                </span>
+
+                <span class="result">
+                    <span class="game_info">
+                        <span class="timing">
+                            <span class="date">01 January 2021</span>
+                            <hr>
+                            <span class="time">12:00pm(EST)</span>
+                        </span>
+                        <span class="location">field name</span>
+                    </span>
+
+                    <span class="scoring">
+                        <span class="team">
+                            <span class="text">home</span>
+                            <span class="emblem"><img src="teamlogo.jpg" alt=""></span>
+                            <span class="text">team name</span>
+                        </span>
+
+                        <span class="scoreline">
+                            <span class="scores">
+                                <span class = "goal_count">0</span>
+                                <hr>
+                                <span class = "goal_count">0</span>
+                            </span>
+                            <span class="status">ended</span>
+                        </span>
+
+                        <span class="team">
+                            <span class="text">away</span>
+                            <span class="emblem"><img src="teamlogo.jpg" alt=""></span>
+                            <span class="text">team name</span>
+                        </span>
+                    </span>
+
+                    <span class="stat" >
+                        <span class="header">
+                            <span class = "count">0</span>
+                            <span class="label">yellow<br>cards</span>
+                            <span class = "count">0</span>
+                        </span>
+                        <span class="details">
+                            <ul>
+                                <li>player name</li>
+                                <li>player name</li>
+                                <li>player name</li>
+                            </ul>
+                            <hr>
+                            <ul>
+                                <li>player name</li>
+                                <li>player name</li>
+                                <li>player name</li>
+                            </ul>
+                        </span>
+                    </span>
+
+                    <span class="stat">
+                        <span class="header">
+                            <span class = "count">0</span>
+                            <span class="label">red<br>cards</span>
+                            <span class = "count">0</span>
+                        </span>
+                        <span class="details">
+                            <ul>
+                                <li>player name</li>
+                                <li>player name</li>
+                                <li>player name</li>
+                            </ul>
+                            <hr>
+                            <ul>
+                                <li>player name</li>
+                                <li>player name</li>
+                                <li>player name</li>
+                            </ul>
+                        </span>
+                    </span>
+
+                    <span class="footer">
+                        <span class="text">referee name</span>
+                        <button><i class="fi fi-sr-journal-alt"></i></button>
+                    </span>
+
+                </span>
+
+                <span class="result">
+                    <span class="game_info">
+                        <span class="timing">
+                            <span class="date">01 January 2021</span>
+                            <hr>
+                            <span class="time">12:00pm(EST)</span>
+                        </span>
+                        <span class="location">field name</span>
+                    </span>
+
+                    <span class="scoring">
+                        <span class="team">
+                            <span class="text">home</span>
+                            <span class="emblem"><img src="teamlogo.jpg" alt=""></span>
+                            <span class="text">team name</span>
+                        </span>
+
+                        <span class="scoreline">
+                            <span class="scores">
+                                <span class = "goal_count">0</span>
+                                <hr>
+                                <span class = "goal_count">0</span>
+                            </span>
+                            <span class="status">ended</span>
+                        </span>
+
+                        <span class="team">
+                            <span class="text">away</span>
+                            <span class="emblem"><img src="teamlogo.jpg" alt=""></span>
+                            <span class="text">team name</span>
+                        </span>
+                    </span>
+
+                    <span class="stat" >
+                        <span class="header">
+                            <span class = "count">0</span>
+                            <span class="label">yellow<br>cards</span>
+                            <span class = "count">0</span>
+                        </span>
+                        <span class="details">
+                            <ul>
+                                <li>player name</li>
+                                <li>player name</li>
+                                <li>player name</li>
+                            </ul>
+                            <hr>
+                            <ul>
+                                <li>player name</li>
+                                <li>player name</li>
+                                <li>player name</li>
+                            </ul>
+                        </span>
+                    </span>
+
+                    <span class="stat">
+                        <span class="header">
+                            <span class = "count">0</span>
+                            <span class="label">red<br>cards</span>
+                            <span class = "count">0</span>
+                        </span>
+                        <span class="details">
+                            <ul>
+                                <li>player name</li>
+                                <li>player name</li>
+                                <li>player name</li>
+                            </ul>
+                            <hr>
+                            <ul>
+                                <li>player name</li>
+                                <li>player name</li>
+                                <li>player name</li>
+                            </ul>
+                        </span>
+                    </span>
+
+                    <span class="footer">
+                        <span class="text">referee name</span>
+                        <button><i class="fi fi-sr-journal-alt"></i></button>
+                    </span>
+
+                </span>
+
+                <span class="result">
+                    <span class="game_info">
+                        <span class="timing">
+                            <span class="date">01 January 2021</span>
+                            <hr>
+                            <span class="time">12:00pm(EST)</span>
+                        </span>
+                        <span class="location">field name</span>
+                    </span>
+
+                    <span class="scoring">
+                        <span class="team">
+                            <span class="text">home</span>
+                            <span class="emblem"><img src="teamlogo.jpg" alt=""></span>
+                            <span class="text">team name</span>
+                        </span>
+
+                        <span class="scoreline">
+                            <span class="scores">
+                                <span class = "goal_count">0</span>
+                                <hr>
+                                <span class = "goal_count">0</span>
+                            </span>
+                            <span class="status">ended</span>
+                        </span>
+
+                        <span class="team">
+                            <span class="text">away</span>
+                            <span class="emblem"><img src="teamlogo.jpg" alt=""></span>
+                            <span class="text">team name</span>
+                        </span>
+                    </span>
+
+                    <span class="stat" >
+                        <span class="header">
+                            <span class = "count">0</span>
+                            <span class="label">yellow<br>cards</span>
+                            <span class = "count">0</span>
+                        </span>
+                        <span class="details">
+                            <ul>
+                                <li>player name</li>
+                                <li>player name</li>
+                                <li>player name</li>
+                            </ul>
+                            <hr>
+                            <ul>
+                                <li>player name</li>
+                                <li>player name</li>
+                                <li>player name</li>
+                            </ul>
+                        </span>
+                    </span>
+
+                    <span class="stat">
+                        <span class="header">
+                            <span class = "count">0</span>
+                            <span class="label">red<br>cards</span>
+                            <span class = "count">0</span>
+                        </span>
+                        <span class="details">
+                            <ul>
+                                <li>player name</li>
+                                <li>player name</li>
+                                <li>player name</li>
+                            </ul>
+                            <hr>
+                            <ul>
+                                <li>player name</li>
+                                <li>player name</li>
+                                <li>player name</li>
+                            </ul>
+                        </span>
+                    </span>
+
+                    <span class="footer">
+                        <span class="text">referee name</span>
+                        <button><i class="fi fi-sr-journal-alt"></i></button>
+                    </span>
+
+                </span>
+            </span>
+        </section>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+</html>

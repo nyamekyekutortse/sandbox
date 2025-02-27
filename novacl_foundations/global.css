@@ -1,0 +1,86 @@
+/* 
+ * Contains all constants, variables and imports
+ * Contains effects and animations
+ * Contains fonts
+ * Standard styles for body and html structure and main for mobile and desktop
+ */
+ 
+ /* flaticon imports */
+ @import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-solid-rounded/css/uicons-solid-rounded.css');
+ @import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-bold-rounded/css/uicons-bold-rounded.css');
+ @import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css');
+ @import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-straight/css/uicons-regular-straight.css');
+ @import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-solid-straight/css/uicons-solid-straight.css');
+
+ /* adobe font kit */ @import url("https://use.typekit.net/upq8vtc.css");
+@import url("https://cdn.jsdelivr.net/npm/uikit@3.23.1/dist/css/uikit.min.css");
+
+ :root
+ {
+    /* font-families */
+    --font-one: kobenhavn-sans-stencil, sans-serif;
+    --font-two: mundial, sans-serif;
+
+    /* responsive font-sizes */
+    --large-size: clamp(3rem, 5vw, 7rem);
+    --header-size: clamp(1rem, 4vw, 2rem);
+    --sub-header-size: clamp(0.75rem, 3vw, 1.5rem);
+    --body-size: clamp(0.75rem, 2.5vw, 1.5rem);
+    --footer-size: clamp(0.5rem, 2.5vw, 1.25rem);
+    
+    /* shadows */
+    --drop-one: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    --drop-two: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    --drop-three: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+
+    --inner-one: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+    --inner-two: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+
+
+    /* colors */
+    --primary: #F0F2F5;
+    --secondary: #E4E7ED;
+    
+    --background: #F0F2F5;
+    --background-secondary: #E4E7ED;
+
+    /* rich black */ --dark: #071E22;
+    --light: #FFFFFF;
+
+
+    /* transitions */
+
+ }
+
+*
+{
+    transition: all 0.2s ease-in-out;
+}
+
+ html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+ }
+
+ body{
+    width: 98vw;
+    height: 100vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
+ }
+
+main
+{
+    display: flex;
+    width: 100%;
+    min-height: 95%;
+    /* outline: solid 1px blue; */
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
