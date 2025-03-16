@@ -110,6 +110,194 @@
         font-size: var(--sub-header-size);
     }
 
+    /* standings */
+    section[id = "standings_container"]
+    {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: clamp(10px, 70%, 1000px);
+        /* justify-content: center; */
+        /* align-items: center; */
+        /* background-color: red; */
+        margin-top: clamp(10px, 5%, 50px);
+    }
 
+    section[id = "standings_container"] .week_results
+    {
+        display: flex;
+        width: 100%;
+        height: 70vh;
+        /* align-items: center; */
+        overflow-x: scroll;
+    }
+
+    section[id = "standings_container"] .week_results::-webkit-scrollbar{
+        display: none;
+    }
+
+    section[id = "standings_container"] .week_results .result
+    {
+    
+            display: flex;
+            flex-direction: column;
+            width: calc(90vw); 
+            height: calc(65vh);
+            padding: 5px;
+            border-radius: 30px;
+            overflow: hidden;
+            /* justify-content: center; */
+            align-items: center;
+            background-color: none;
+            box-shadow: var(--drop-three);
+            min-width: 600px;
+            min-height: 500px;
+            margin-left: 5vw;
+            overflow-y: scroll; /* todo: temporary until you figure out how to keep list from getting too long */
+    }
+
+    section[id = "standings_container"] .week_results .result::-webkit-scrollbar{
+        display: none;
+    }
+
+    section[id = "standings_container"] .week_results .result thead,
+    section[id = "standings_container"] .week_results .result thead tr,
+    section[id = "standings_container"] .week_results .result tbody,
+    section[id = "standings_container"] .week_results .result tbody tr
+    {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        /* gap: clamp(10px, 1.55vw, 20px); */
+    }
+
+    section[id = "standings_container"] .week_results .result tbody
+    {
+        flex-direction: column!important;
+    }
+
+    section[id = "standings_container"] .week_results .result tbody tr{
+        margin-top: clamp(10px, 1.55vw, 20px);
+        border-bottom: solid 1px var(--dark);
+        padding-bottom: clamp(10px, 1.05vw, 20px);
+    }
+
+    section[id = "standings_container"] .week_results .result thead th:first-child,
+    section[id = "standings_container"] .week_results .result tbody tr td:first-child
+    {
+        /* display: grid;
+        place-items: center; */
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        /* background-color: pink; */
+        width: clamp(10px, 5vw, 500px);
+        text-transform: capitalize;
+    }
+
+    section[id = "standings_container"] .week_results .result thead th:first-child .value,
+    section[id = "standings_container"] .week_results .result tbody tr td:first-child .value
+    {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section[id = "standings_container"] .week_results .result thead th:nth-child(2),
+    section[id = "standings_container"] .week_results .result tbody tr td:nth-child(2)
+    {
+        /* display: flex; */
+        justify-content: flex-start;
+        align-items: center;
+        text-align: left;
+        /* background-color: pink; */
+        width: clamp(10px, 25vw, 500px);
+        text-transform: capitalize;
+        padding: 0;
+    }
+
+    section[id = "standings_container"] .week_results .result tbody tr td:nth-child(2)
+    {
+        height: clamp(30px, 10vh, 50px);
+        /* background-color: yellow; */
+        margin: 0;
+        justify-content: flex-start;
+        display: flex;
+        padding: 0;
+        align-items: center;
+        gap: clamp(10px, 1.55vw, 20px);
+        /* margin: 0; */
+    }
+
+    section[id = "standings_container"] .week_results .result tbody tr td:nth-child(2) .emblem{
+        height: 100%;
+        aspect-ratio: 1/1;
+        display: flex;
+        overflow: hidden;
+        flex-direction: row;
+        border-radius: 15px;
+    }
+
+
+
+
+    section[id = "standings_container"] .week_results .result tbody tr td:nth-child(2) .emblem img{
+        display: flex;
+    }
+
+    section[id = "standings_container"] .week_results .result thead th:nth-child(3),
+    section[id = "standings_container"] .week_results .result thead th:nth-child(4),
+    section[id = "standings_container"] .week_results .result thead th:nth-child(5),
+    section[id = "standings_container"] .week_results .result thead th:nth-child(6),
+    section[id = "standings_container"] .week_results .result thead th:nth-child(7),
+    section[id = "standings_container"] .week_results .result thead th:nth-child(8),
+    section[id = "standings_container"] .week_results .result thead th:nth-child(9),
+    section[id = "standings_container"] .week_results .result thead th:nth-child(10),
+    section[id = "standings_container"] .week_results .result tbody tr td:nth-child(3),
+    section[id = "standings_container"] .week_results .result tbody tr td:nth-child(4),
+    section[id = "standings_container"] .week_results .result tbody tr td:nth-child(5),
+    section[id = "standings_container"] .week_results .result tbody tr td:nth-child(6),
+    section[id = "standings_container"] .week_results .result tbody tr td:nth-child(7),
+    section[id = "standings_container"] .week_results .result tbody tr td:nth-child(8),
+    section[id = "standings_container"] .week_results .result tbody tr td:nth-child(9),
+    section[id = "standings_container"] .week_results .result tbody tr td:nth-child(10)
+    {
+        /* display: flex; */
+        /* display: grid;
+        place-items: center; */
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        /* background-color: pink; */
+        width: clamp(10px, 6.5vw, 500px);
+        text-transform: capitalize;
+    }
+
+    section[id = "standings_container"] .week_results .result thead th:nth-child(3) .value,
+    section[id = "standings_container"] .week_results .result thead th:nth-child(4) .value,
+    section[id = "standings_container"] .week_results .result thead th:nth-child(5) .value,
+    section[id = "standings_container"] .week_results .result thead th:nth-child(6) .value,
+    section[id = "standings_container"] .week_results .result thead th:nth-child(7) .value,
+    section[id = "standings_container"] .week_results .result thead th:nth-child(8) .value,
+    section[id = "standings_container"] .week_results .result thead th:nth-child(9) .value,
+    section[id = "standings_container"] .week_results .result thead th:nth-child(10) .value,
+    section[id = "standings_container"] .week_results .result tbody tr td:nth-child(3) .value,
+    section[id = "standings_container"] .week_results .result tbody tr td:nth-child(4) .value,
+    section[id = "standings_container"] .week_results .result tbody tr td:nth-child(5) .value,
+    section[id = "standings_container"] .week_results .result tbody tr td:nth-child(6) .value,
+    section[id = "standings_container"] .week_results .result tbody tr td:nth-child(7) .value,
+    section[id = "standings_container"] .week_results .result tbody tr td:nth-child(8) .value,
+    section[id = "standings_container"] .week_results .result tbody tr td:nth-child(9) .value,
+    section[id = "standings_container"] .week_results .result tbody tr td:nth-child(10) .value
+    {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        text-overflow: clip;
+    }
 }
 

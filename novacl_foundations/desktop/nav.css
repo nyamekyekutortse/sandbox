@@ -1,0 +1,83 @@
+@import url(../global.css);
+
+@media screen and (min-width: 1000px) {
+    nav[id="desktop_nav"] {
+        display: flex;
+        width: 90vw;
+        margin-left: 5vw;
+        height: clamp(50px, 15vh, 120px);
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: var(--drop-one);
+        z-index: 100;
+        position: fixed;
+        background: white; /* Ensure it's visible */
+    }
+
+    nav[id="desktop_nav"] .nav_group {
+        display: flex;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        padding: 0 20px;
+    }
+
+    /* Dropdown Group */
+    nav[id="desktop_nav"] .nav_group .dropdown_group {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        cursor: pointer;
+        padding: 10px 20px;
+    }
+
+    /* Text Label */
+    nav[id="desktop_nav"] .nav_group .dropdown_group .text {
+        font-size: var(--small-size);
+        font-weight: bold;
+        text-transform: uppercase;
+        color: var(--dark);
+    }
+
+    /* Dropdown Menu */
+    nav[id="desktop_nav"] .nav_group .dropdown_group .dropdown {
+        position: absolute;
+        top: 100%; /* Position directly below */
+        left: 50%;
+        transform: translateX(-40%);
+        display: none; /* Hidden by default */
+        flex-direction: column;
+        /* background: white; */
+        /* box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); */
+        border-radius: 5px;
+        min-width: 150px;
+        width: 20vw;
+        padding: 5px 0;
+        z-index: 200;
+        padding-top: 40px;
+    }
+
+    /* Show dropdown on hover */
+    nav[id="desktop_nav"] .nav_group .dropdown_group:hover .dropdown {
+        display: flex;
+    }
+
+    /* Dropdown Buttons */
+    nav[id="desktop_nav"] .nav_group .dropdown_group .dropdown button {
+        background: none;
+        border: none;
+        padding: 10px 15px;
+        width: 100%;
+        text-align: left;
+        cursor: pointer;
+        font-size: 0.9rem;
+        
+        transition: background 0.2s ease-in-out;
+    }
+
+    nav[id="desktop_nav"] .nav_group .dropdown_group .dropdown button:hover {
+        background: #f4f4f4;
+        box-shadow: var(--drop-one);
+    }
+}

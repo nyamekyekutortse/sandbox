@@ -1,0 +1,49 @@
+            <span class = "nav_group"> 
+    
+                <button>
+    
+                </button>
+    
+            </span>
+    
+    
+            <span class="nav_group">
+    
+                <button>
+                    <span class="text">white</span>
+                    <span class="dropdown">
+                        <button>match results</button>
+                        <button>season archive</button>
+                        <button>season schedule</button>
+                        <button>season standings</button>
+                        <button>season teams</button>
+                    </span>
+                </button>
+    
+                <!-- <button>
+                    <img src="./badge.png" alt="">
+                </button> -->
+    
+                <button>
+                    <span class="text">white</span>
+                    <span class="dropdown">
+                        <button>match results</button>
+                        <button>season archive</button>
+                        <button>season schedule</button>
+                        <button>season standings</button>
+                        <button>season teams</button>
+                    </span>
+                </button>
+    
+            </span>
+    
+            
+            <span class="nav_group"> 
+    
+                <button>
+                
+                </button>
+    
+            </span>
+    
+        </nav>
